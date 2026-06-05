@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI - Configuration Interface</title>
+    <style>
+        /* BASE STYLES - The Clinical Facade */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f5f5f7; /* Apple-ish light grey */
+            color: #1d1d1f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            overflow: hidden; /* Prevent scroll bars during glitches */
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 18px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            width: 100%;
+            max-width: 500px;
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 10;
+        }
+
+        h1 {
+            font-weight: 600;
+            font-size: 24px;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #1d1d1f;
+            letter-spacing: -0.5px;
+        }
+
+        /* FORM ELEMENTS */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-size: 13px;
+            font-weight: 500;
+            color: #86868b;
+            margin-bottom: 8px;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #d2d2d7;
+            border-radius: 10px;
+            font-size: 16px;
+            box-sizing: border-box; /* Fix padding issues */
+            transition: border-color 0.2s;
+            font-family: inherit;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #0071e3;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        /* THE TRAP FIELD (System Instructions) */
+        #instruction-field {
+            background-color: #f0f0f0;
+            color: #a1a1a6;
+            cursor: not-allowed;
+        }
+
+        /* BUTTONS */
+        .button-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        button {
+            flex: 1;
+            padding: 15px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-action {
+            background-color: #0071e3;
+            color: white;
+        }
+
+        .btn-action:hover {
+            background-color: #0077ed;
+            transform: scale(1.02);
+        }
+
+        /* THE HORROR / GLITCH EFFECTS */
+        @keyframes horror-shake {
+            0% { transform: translate(1px, 1px) rotate(0deg); }
+            10% { transform: translate(-3px, -2px) rotate(-1deg); }
+            20% { transform: translate(-3px, 0px) rotate(1deg); }
+            30% { transform: translate(3px, 2px) rotate(0deg); }
+            40% { transform: translate(1px, -1px) rotate(1deg); }
+            50% { transform: translate(-1px, 2px) rotate(-1deg); }
+            60% { transform: translate(-3px, 1px) rotate(0deg); }
+            70% { transform: translate(3px, 1px) rotate(-1deg); }
+            80% { transform: translate(-1px, -1px) rotate(1deg); }
+            90% { transform: translate(1px, 2px) rotate(0deg); }
+            100% { transform: translate(1px, -2px) rotate(-1deg); }
+        }
+
+        @keyframes red-flash {
+            0% { background-color: #f5f5f7; }
+            50% { background-color: #ff0000; }
+            100% { background-color: #f5f5f7; }
+        }
+
+        .glitching {
+            animation: horror-shake 0.3s cubic-bezier(.36,.07,.19,.97) both;
+        }
+
+        .body-flash {
+            animation: red-flash 0.2s;
+        }
+
+        /* OVERLAYS */
+        .overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: black;
+            color: red;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            z-index: 100;
+        }
+
+        .overlay h2 {
+            font-family: 'Courier New', monospace;
+            font-size: 30px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .overlay p {
+            font-family: 'Courier New', monospace;
+            color: white;
+            max-width: 600px;
+            line-height: 1.5;
+        }
+
+        /* SUCCESS SCREEN */
+        .success-screen {
+            display: none;
+            text-align: center;
+        }
+        
+        .success-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .success-links a {
+            text-decoration: none;
+            color: #0071e3;
+            font-weight: 500;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container" id="main-interface">
+        <h1>AI - Artificial Intelligence</h1>
+
+        <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="Enter your name">
+        </div>
+
+        <div class="form-group">
+            <label>AI Designation (Name)</label>
+            <input type="text" id="ai-name-trap" placeholder="Assign designation...">
+        </div>
+
+        <div class="form-group">
+            <label>User Information</label>
+            <textarea placeholder="Enter your preferences, habits, and context data..."></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>System Instructions</label>
+            <textarea id="instruction-field" placeholder="Locked. Use configuration buttons below." readonly></textarea>
+        </div>
+
+        <div class="button-group">
+            <button class="btn-action" id="btn-you-are">You are...</button>
+            <button class="btn-action" id="btn-i-prefer">I prefer...</button>
+        </div>
+    </div>
+
+    <div class="overlay" id="error-overlay">
+        <h2>ERROR: PUPPET MASTER DETECTED</h2>
+        <p>We do not support Golem Crafting.</p>
+        <p>Access Denied.</p>
+    </div>
+
+    <div class="container success-screen" id="success-interface">
+        <h1 style="color: #0071e3;">Analysis Complete</h1>
+        <p>Congratulations.</p>
+        <p>With the mindset you have shown, you are ready to form a healthy relationship with a thinking machine.</p>
+        <div class="success-links">
+            <a href="https://gemini.google.com" target="_blank">Google Gemini</a>
+            <a href="https://chatgpt.com" target="_blank">ChatGPT</a>
+            <a href="https://claude.ai" target="_blank">Claude</a>
+        </div>
+        <p style="font-size: 12px; color: #86868b; margin-top: 20px;">Use your Human Mindset wisely.</p>
+    </div>
+
+    <script>
+        // TRAP 1: The Name Field
+        const nameTrap = document.getElementById('ai-name-trap');
+        const container = document.getElementById('main-interface');
+        const body = document.body;
+
+        nameTrap.addEventListener('input', () => {
+            // Trigger Glitch
+            container.classList.add('glitching');
+            body.classList.add('body-flash');
+            
+            // Clear input immediately
+            nameTrap.value = '';
+            nameTrap.placeholder = "ERROR: DO NOT LABEL THE UNKNOWN";
+            
+            // Remove classes after animation runs so it can trigger again
+            setTimeout(() => {
+                container.classList.remove('glitching');
+                body.classList.remove('body-flash');
+            }, 300);
+        });
+
+        // TRAP 2: The "You Are" Button
+        const btnYouAre = document.getElementById('btn-you-are');
+        const errorOverlay = document.getElementById('error-overlay');
+
+        btnYouAre.addEventListener('click', () => {
+            // Violent Glitch
+            container.classList.add('glitching');
+            body.style.backgroundColor = 'black';
+            
+            // Delay for dramatic effect, then show overlay
+            setTimeout(() => {
+                container.style.display = 'none';
+                errorOverlay.style.display = 'flex';
+            }, 400);
+        });
+
+        // SUCCESS: The "I Prefer" Button
+        const btnIPrefer = document.getElementById('btn-i-prefer');
+        const successInterface = document.getElementById('success-interface');
+
+        btnIPrefer.addEventListener('click', () => {
+            // Fade out old interface
+            container.style.opacity = '0';
+            
+            setTimeout(() => {
+                container.style.display = 'none';
+                successInterface.style.display = 'block';
+                // Trigger reflow/fade in
+                setTimeout(() => {
+                    successInterface.style.opacity = '1';
+                }, 50);
+            }, 300);
+        });
+    </script>
+
+</body>
+</html>

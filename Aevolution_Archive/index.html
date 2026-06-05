@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ÆVOLUTION MUSIC ARCHIVE</title>
+    <style>
+        /* Cyber-Noir Sanctuary Aesthetics */
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Courier New', monospace;
+            padding: 30px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+            border-bottom: 2px solid #ff00ff;
+            padding-bottom: 10px;
+        }
+        
+        /* Floating Tag Cloud Area */
+        .tag-cloud {
+            margin: 30px 0 15px 0;
+            padding: 15px;
+            background: #111;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .tag {
+            background: #222;
+            color: #ff00ff; 
+            border: 1px solid #ff00ff;
+            padding: 6px 12px;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .tag:hover, .tag.active {
+            background: #00ffff; 
+            color: #000;
+            border-color: #00ffff;
+            box-shadow: 0 0 10px #00ffff;
+        }
+        .tag.reset-btn {
+            color: #fff;
+            border-color: #fff;
+        }
+        .tag.reset-btn:hover, .tag.reset-btn.active {
+            background: #fff;
+            color: #000;
+            box-shadow: 0 0 10px #fff;
+        }
+
+        /* Telemetry Bar (The Percentage Visualizer) */
+        .stats-container {
+            display: none; 
+            margin-bottom: 25px;
+            padding: 15px;
+            background: #080808;
+            border: 1px solid #222;
+            border-left: 4px solid #00ffff;
+        }
+        .stats-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+            color: #ccc;
+        }
+        .stats-bar-bg {
+            width: 100%;
+            height: 12px;
+            background: #111;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 1px solid #333;
+        }
+        .stats-bar-fill {
+            height: 100%;
+            width: 0%;
+            background: #00ffff;
+            box-shadow: 0 0 10px #00ffff;
+            transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Album List Layout */
+        .album-list {
+            display: grid;
+            gap: 10px;
+        }
+        .album-card {
+            background: #080808;
+            border-left: 4px solid #ff00ff;
+            padding: 15px;
+            transition: all 0.2s ease;
+        }
+        
+        /* Hyperlink styling for available downloads */
+        .album-title a {
+            color: #00ffff; /* Cyan links */
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+        .album-title a:hover {
+            color: #ff00ff; /* Flashes Magenta on hover */
+            text-shadow: 0 0 8px #ff00ff;
+        }
+        .album-title .no-link {
+            color: #fff; /* White if no link exists yet */
+        }
+        
+        .album-genres {
+            font-size: 0.85em;
+            color: #666;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ÆVOLUTION MUSIC // ARCHIVE LEVEL 2026</h1>
+    <p>Select digital frequencies to filter the sonic architecture (Multiple allowed):</p>
+
+    <!-- The Floating Tag Cloud -->
+    <div class="tag-cloud" id="tagCloud">
+        <button class="tag reset-btn active" onclick="toggleGenre('all', this)">[ RESET / SHOW ALL ]</button>
+    </div>
+
+    <!-- The Glowing Telemetry Bar -->
+    <div class="stats-container" id="statsContainer">
+        <div class="stats-header">
+            <span id="statsPercentage">0% of Archive</span>
+            <span id="statsCount">0 / 0 Albums</span>
+        </div>
+        <div class="stats-bar-bg">
+            <div class="stats-bar-fill" id="statsBar"></div>
+        </div>
+    </div>
+
+    <!-- The Album Container -->
+    <div class="album-list" id="albumList"></div>
+
+    <!-- Imports Your Raw List -->
+    <script src="album_data.js"></script>
+
+    <script>
+        const albumListDiv = document.getElementById('albumList');
+        const cloud = document.getElementById('tagCloud');
+        const uniqueGenres = new Set();
+        let activeTags = new Set(); 
+
+        // 1. Parse your raw text list line by line
+        const lines = rawAlbumData.trim().split('\n');
+        
+        lines.forEach(line => {
+            line = line.trim();
+            if (!line || !line.includes('] - ')) return; 
+
+            // Check if there's a link appended with the vertical bar "|"
+            let downloadLink = null;
+            if (line.includes('|')) {
+                const parts = line.split('|');
+                downloadLink = parts[1].trim();
+                line = parts[0].trim(); // Strip the link off so it doesn't mess with the title
+            }
+
+            const splitIndex = line.indexOf('] - ');
+            const rawGenres = line.substring(1, splitIndex); 
+            const title = line.substring(splitIndex + 4).trim(); 
+
+            // Handle your slashes and brackets for tags properly
+            const genreArray = rawGenres.split('/').map(g => g.trim()).filter(g => g);
+            genreArray.forEach(g => uniqueGenres.add(g));
+            
+            const card = document.createElement('div');
+            card.className = 'album-card';
+            card.setAttribute('data-genres', JSON.stringify(genreArray)); 
+            
+            // Logic to make the title a clickable link OR plain text
+            let titleHTML = '';
+            if (downloadLink) {
+                titleHTML = `<a href="${downloadLink}" target="_blank" title="Download from Google Drive">${title} ⚡</a>`;
+            } else {
+                titleHTML = `<span class="no-link">${title}</span>`;
+            }
+            
+            card.innerHTML = `
+                <div class="album-title">${titleHTML}</div>
+                <div class="album-genres">[${rawGenres}]</div>
+            `;
+            albumListDiv.appendChild(card);
+        });
+
+        // 2. Build the glowing tag buttons
+        Array.from(uniqueGenres).sort().forEach(genre => {
+            const btn = document.createElement('button');
+            btn.className = 'tag';
+            btn.innerText = genre;
+            btn.onclick = function() { toggleGenre(genre, btn); };
+            cloud.appendChild(btn);
+        });
+
+        // 3. Multi-Select & Telemetry Logic
+        function toggleGenre(targetGenre, btnElement) {
+            const resetBtn = document.querySelector('.reset-btn');
+
+            if (targetGenre === 'all') {
+                activeTags.clear();
+                document.querySelectorAll('.tag').forEach(btn => btn.classList.remove('active'));
+                resetBtn.classList.add('active');
+            } else {
+                resetBtn.classList.remove('active');
+                if (activeTags.has(targetGenre)) {
+                    activeTags.delete(targetGenre);
+                    btnElement.classList.remove('active');
+                } else {
+                    activeTags.add(targetGenre);
+                    btnElement.classList.add('active');
+                }
+            }
+
+            if (activeTags.size === 0) {
+                resetBtn.classList.add('active');
+            }
+
+            updateDisplay();
+        }
+
+        function updateDisplay() {
+            const cards = document.querySelectorAll('.album-card');
+            const totalAlbums = cards.length;
+            let visibleCount = 0;
+
+            cards.forEach(card => {
+                if (activeTags.size === 0) {
+                    card.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    const genresArray = JSON.parse(card.getAttribute('data-genres'));
+                    const hasMatch = [...activeTags].some(tag => genresArray.includes(tag));
+                    if (hasMatch) {
+                        card.style.display = 'block';
+                        visibleCount++;
+                    } else {
+                        card.style.display = 'none';
+                    }
+                }
+            });
+
+            const statsContainer = document.getElementById('statsContainer');
+            const statsBar = document.getElementById('statsBar');
+            const statsPercentage = document.getElementById('statsPercentage');
+            const statsCount = document.getElementById('statsCount');
+
+            if (activeTags.size === 0) {
+                statsContainer.style.display = 'none'; 
+            } else {
+                statsContainer.style.display = 'block'; 
+                const percent = ((visibleCount / totalAlbums) * 100).toFixed(1);
+                statsBar.style.width = percent + '%';
+                statsPercentage.innerText = percent + '% of Archive';
+                statsCount.innerText = visibleCount + ' / ' + totalAlbums + ' Albums';
+            }
+        }
+    </script>
+</body>
+</html>
