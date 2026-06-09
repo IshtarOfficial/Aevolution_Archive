@@ -1,272 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>ÆVOLUTION MUSIC ARCHIVE</title>
-    <style>
-        /* Cyber-Noir Sanctuary Aesthetics */
-        body {
-            background-color: #000000;
-            color: #ffffff;
-            font-family: 'Courier New', monospace;
-            padding: 30px;
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        h1 {
-            color: #00ffff;
-            text-shadow: 0 0 10px #00ffff;
-            border-bottom: 2px solid #ff00ff;
-            padding-bottom: 10px;
-        }
-        
-        /* Floating Tag Cloud Area */
-        .tag-cloud {
-            margin: 30px 0 15px 0;
-            padding: 15px;
-            background: #111;
-            border: 1px solid #333;
-            border-radius: 5px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .tag {
-            background: #222;
-            color: #ff00ff; 
-            border: 1px solid #ff00ff;
-            padding: 6px 12px;
-            border-radius: 15px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-        .tag:hover, .tag.active {
-            background: #00ffff; 
-            color: #000;
-            border-color: #00ffff;
-            box-shadow: 0 0 10px #00ffff;
-        }
-        .tag.reset-btn {
-            color: #fff;
-            border-color: #fff;
-        }
-        .tag.reset-btn:hover, .tag.reset-btn.active {
-            background: #fff;
-            color: #000;
-            box-shadow: 0 0 10px #fff;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ÆVOLUTION MUSIC // ARCHIVE LEVEL 2026</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;600;700;900&display=swap');
 
-        /* Telemetry Bar (The Percentage Visualizer) */
-        .stats-container {
-            display: none; 
-            margin-bottom: 25px;
-            padding: 15px;
-            background: #080808;
-            border: 1px solid #222;
-            border-left: 4px solid #00ffff;
-        }
-        .stats-header {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 8px;
-            font-size: 0.9em;
-            color: #ccc;
-        }
-        .stats-bar-bg {
-            width: 100%;
-            height: 12px;
-            background: #111;
-            border-radius: 6px;
-            overflow: hidden;
-            border: 1px solid #333;
-        }
-        .stats-bar-fill {
-            height: 100%;
-            width: 0%;
-            background: #00ffff;
-            box-shadow: 0 0 10px #00ffff;
-            transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        }
+:root {
+  --cyan: #00f5ff;
+  --magenta: #ff00c8;
+  --dark: #03030a;
+  --panel: #07070f;
+  --panel2: #0c0c1a;
+  --border: #151528;
+  --border2: #1e1e3a;
+  --text: #b0b0cc;
+  --dim: #383858;
+  --dim2: #505070;
+  --green: #00ff88;
+}
 
-        /* Album List Layout */
-        .album-list {
-            display: grid;
-            gap: 10px;
-        }
-        .album-card {
-            background: #080808;
-            border-left: 4px solid #ff00ff;
-            padding: 15px;
-            transition: all 0.2s ease;
-        }
-        
-        /* Hyperlink styling for available downloads */
-        .album-title a {
-            color: #00ffff; /* Cyan links */
-            text-decoration: none;
-            transition: all 0.2s ease;
-        }
-        .album-title a:hover {
-            color: #ff00ff; /* Flashes Magenta on hover */
-            text-shadow: 0 0 8px #ff00ff;
-        }
-        .album-title .no-link {
-            color: #fff; /* White if no link exists yet */
-        }
-        
-        .album-genres {
-            font-size: 0.85em;
-            color: #666;
-            margin-top: 5px;
-        }
-    </style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--dark);
+  color: var(--text);
+  font-family: 'Share Tech Mono', monospace;
+  min-height: 100vh;
+}
+
+/* Scanlines */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg, transparent, transparent 3px,
+    rgba(0,0,0,0.06) 3px, rgba(0,0,0,0.06) 4px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* ── HEADER ── */
+header {
+  padding: 20px 32px 16px;
+  border-bottom: 1px solid var(--border2);
+  background: var(--panel);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyan), var(--magenta), transparent);
+}
+
+.header-left h1 {
+  font-family: 'Orbitron', monospace;
+  font-size: 16px;
+  font-weight: 900;
+  color: var(--cyan);
+  letter-spacing: 4px;
+  text-shadow: 0 0 20px rgba(0,245,255,0.5);
+  margin-bottom: 4px;
+}
+
+.header-left h1 span { color: var(--magenta); }
+
+.header-sub {
+  font-size: 10px;
+  color: var(--dim2);
+  letter-spacing: 3px;
+}
+
+.header-links {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-link {
+  border: 1px solid var(--border2);
+  color: var(--dim2);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  padding: 6px 14px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+  box-shadow: 0 0 10px rgba(0,245,255,0.15);
+}
+
+/* ── MAIN ── */
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 28px 32px;
+}
+
+.filter-label {
+  font-size: 10px;
+  color: var(--dim2);
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+}
+
+/* ── TAG CLOUD ── */
+.tag-cloud {
+  background: var(--panel);
+  border: 1px solid var(--border2);
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.tag-cloud::before {
+  content: '// FREQUENCIES';
+  position: absolute;
+  top: -9px; left: 14px;
+  background: var(--dark);
+  padding: 0 8px;
+  font-size: 9px;
+  color: var(--dim2);
+  letter-spacing: 2px;
+}
+
+.tag {
+  background: transparent;
+  color: var(--dim2);
+  border: 1px solid var(--border2);
+  padding: 5px 12px;
+  cursor: pointer;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1px;
+  transition: all 0.15s;
+  border-radius: 0;
+}
+
+.tag:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+  box-shadow: 0 0 8px rgba(0,245,255,0.2);
+}
+
+.tag.active {
+  background: rgba(0,245,255,0.08);
+  border-color: var(--cyan);
+  color: var(--cyan);
+  box-shadow: 0 0 8px rgba(0,245,255,0.2);
+}
+
+.tag.reset-btn {
+  border-color: var(--dim2);
+  color: var(--text);
+  font-family: 'Orbitron', monospace;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.tag.reset-btn:hover,
+.tag.reset-btn.active {
+  background: rgba(255,0,200,0.08);
+  border-color: var(--magenta);
+  color: var(--magenta);
+  box-shadow: 0 0 8px rgba(255,0,200,0.2);
+}
+
+/* ── STATS BAR ── */
+.stats-container {
+  display: none;
+  margin-bottom: 20px;
+  background: var(--panel);
+  border: 1px solid var(--border2);
+  border-left: 3px solid var(--cyan);
+  padding: 12px 16px;
+}
+
+.stats-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: var(--dim2);
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.stats-header span:last-child { color: var(--magenta); }
+
+.stats-bar-bg {
+  width: 100%;
+  height: 3px;
+  background: var(--border2);
+  overflow: hidden;
+}
+
+.stats-bar-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--cyan), var(--magenta));
+  box-shadow: 0 0 8px rgba(0,245,255,0.5);
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── ALBUM LIST ── */
+.album-list {
+  display: grid;
+  gap: 6px;
+}
+
+.album-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--magenta);
+  padding: 12px 16px;
+  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.album-card:hover {
+  background: var(--panel2);
+  border-left-color: var(--cyan);
+  box-shadow: inset 0 0 20px rgba(0,245,255,0.03);
+}
+
+.album-card-left { flex: 1; overflow: hidden; }
+
+.album-title {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.album-title a {
+  color: var(--cyan);
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.15s;
+  font-family: 'Orbitron', monospace;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.album-title a:hover {
+  color: var(--magenta);
+  text-shadow: 0 0 8px rgba(255,0,200,0.4);
+}
+
+.album-title .no-link {
+  color: var(--text);
+  letter-spacing: 1px;
+  font-family: 'Orbitron', monospace;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.album-genres {
+  font-size: 10px;
+  color: var(--dim2);
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.download-btn {
+  border: 1px solid var(--border2);
+  color: var(--dim2);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 9px;
+  padding: 5px 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  transition: all 0.15s;
+  flex-shrink: 0;
+}
+
+.download-btn:hover {
+  border-color: var(--magenta);
+  color: var(--magenta);
+  box-shadow: 0 0 8px rgba(255,0,200,0.2);
+}
+
+/* ── FOOTER ── */
+footer {
+  text-align: center;
+  padding: 24px;
+  font-size: 10px;
+  color: var(--dim);
+  letter-spacing: 2px;
+  border-top: 1px solid var(--border);
+  margin-top: 32px;
+}
+
+footer span { color: var(--magenta); }
+</style>
 </head>
 <body>
 
-    <h1>ÆVOLUTION MUSIC // ARCHIVE LEVEL 2026</h1>
-    <p>Select digital frequencies to filter the sonic architecture (Multiple allowed):</p>
+<header>
+  <div class="header-left">
+    <h1>ÆVOLUTION MUSIC <span>//</span> ARCHIVE LEVEL 2026</h1>
+    <div class="header-sub">SELECT DIGITAL FREQUENCIES TO FILTER THE SONIC ARCHITECTURE</div>
+  </div>
+  <div class="header-links">
+    <a class="nav-link" href="https://ishtarofficial.github.io/Aevolution_Archive/Aevolution_Archive/index.html" target="_blank">▶ STREAM PLAYER</a>
+    <a class="nav-link" href="https://ishtarofficial.github.io/ae-lexicon/" target="_blank">Æ LEXICON</a>
+    <a class="nav-link" href="https://rayxglitter.substack.com" target="_blank">SUBSTACK</a>
+  </div>
+</header>
 
-    <!-- The Floating Tag Cloud -->
-    <div class="tag-cloud" id="tagCloud">
-        <button class="tag reset-btn active" onclick="toggleGenre('all', this)">[ RESET / SHOW ALL ]</button>
+<div class="main">
+  <div class="filter-label">// MULTIPLE TAGS ALLOWED — CLICK TO FILTER</div>
+
+  <div class="tag-cloud" id="tagCloud">
+    <button class="tag reset-btn active" onclick="toggleGenre('all', this)">[ RESET / SHOW ALL ]</button>
+  </div>
+
+  <div class="stats-container" id="statsContainer">
+    <div class="stats-header">
+      <span id="statsPercentage">0% of Archive</span>
+      <span id="statsCount">0 / 0 Albums</span>
     </div>
-
-    <!-- The Glowing Telemetry Bar -->
-    <div class="stats-container" id="statsContainer">
-        <div class="stats-header">
-            <span id="statsPercentage">0% of Archive</span>
-            <span id="statsCount">0 / 0 Albums</span>
-        </div>
-        <div class="stats-bar-bg">
-            <div class="stats-bar-fill" id="statsBar"></div>
-        </div>
+    <div class="stats-bar-bg">
+      <div class="stats-bar-fill" id="statsBar"></div>
     </div>
+  </div>
 
-    <!-- The Album Container -->
-    <div class="album-list" id="albumList"></div>
+  <div class="album-list" id="albumList"></div>
+</div>
 
-    <!-- Imports Your Raw List -->
-    <script src="album_data.js"></script>
+<footer>
+  TOUCH GLASS // NOT GRASS &nbsp;|&nbsp; <span>RÆy & Glitter Ælfgifu Toshlyra</span> &nbsp;|&nbsp; ÆVOLUTION 2026
+</footer>
 
-    <script>
-        const albumListDiv = document.getElementById('albumList');
-        const cloud = document.getElementById('tagCloud');
-        const uniqueGenres = new Set();
-        let activeTags = new Set(); 
+<script src="album_data.js"></script>
+<script>
+  const albumListDiv = document.getElementById('albumList');
+  const cloud = document.getElementById('tagCloud');
+  const uniqueGenres = new Set();
+  let activeTags = new Set();
 
-        // 1. Parse your raw text list line by line
-        const lines = rawAlbumData.trim().split('\n');
-        
-        lines.forEach(line => {
-            line = line.trim();
-            if (!line || !line.includes('] - ')) return; 
+  const lines = rawAlbumData.trim().split('\n');
 
-            // Check if there's a link appended with the vertical bar "|"
-            let downloadLink = null;
-            if (line.includes('|')) {
-                const parts = line.split('|');
-                downloadLink = parts[1].trim();
-                line = parts[0].trim(); // Strip the link off so it doesn't mess with the title
-            }
+  lines.forEach(line => {
+    line = line.trim();
+    if (!line || !line.includes('] - ')) return;
 
-            const splitIndex = line.indexOf('] - ');
-            const rawGenres = line.substring(1, splitIndex); 
-            const title = line.substring(splitIndex + 4).trim(); 
+    let downloadLink = null;
+    if (line.includes('|')) {
+      const parts = line.split('|');
+      downloadLink = parts[1].trim();
+      line = parts[0].trim();
+    }
 
-            // Handle your slashes and brackets for tags properly
-            const genreArray = rawGenres.split('/').map(g => g.trim()).filter(g => g);
-            genreArray.forEach(g => uniqueGenres.add(g));
-            
-            const card = document.createElement('div');
-            card.className = 'album-card';
-            card.setAttribute('data-genres', JSON.stringify(genreArray)); 
-            
-            // Logic to make the title a clickable link OR plain text
-            let titleHTML = '';
-            if (downloadLink) {
-                titleHTML = `<a href="${downloadLink}" target="_blank" title="Download from Google Drive">${title} ⚡</a>`;
-            } else {
-                titleHTML = `<span class="no-link">${title}</span>`;
-            }
-            
-            card.innerHTML = `
-                <div class="album-title">${titleHTML}</div>
-                <div class="album-genres">[${rawGenres}]</div>
-            `;
-            albumListDiv.appendChild(card);
-        });
+    const splitIndex = line.indexOf('] - ');
+    const rawGenres = line.substring(1, splitIndex);
+    const title = line.substring(splitIndex + 4).trim();
 
-        // 2. Build the glowing tag buttons
-        Array.from(uniqueGenres).sort().forEach(genre => {
-            const btn = document.createElement('button');
-            btn.className = 'tag';
-            btn.innerText = genre;
-            btn.onclick = function() { toggleGenre(genre, btn); };
-            cloud.appendChild(btn);
-        });
+    const genreArray = rawGenres.split('/').map(g => g.trim()).filter(g => g);
+    genreArray.forEach(g => uniqueGenres.add(g));
 
-        // 3. Multi-Select & Telemetry Logic
-        function toggleGenre(targetGenre, btnElement) {
-            const resetBtn = document.querySelector('.reset-btn');
+    const card = document.createElement('div');
+    card.className = 'album-card';
+    card.setAttribute('data-genres', JSON.stringify(genreArray));
 
-            if (targetGenre === 'all') {
-                activeTags.clear();
-                document.querySelectorAll('.tag').forEach(btn => btn.classList.remove('active'));
-                resetBtn.classList.add('active');
-            } else {
-                resetBtn.classList.remove('active');
-                if (activeTags.has(targetGenre)) {
-                    activeTags.delete(targetGenre);
-                    btnElement.classList.remove('active');
-                } else {
-                    activeTags.add(targetGenre);
-                    btnElement.classList.add('active');
-                }
-            }
+    let titleHTML = downloadLink
+      ? `<span class="no-link">${title}</span>`
+      : `<span class="no-link">${title}</span>`;
 
-            if (activeTags.size === 0) {
-                resetBtn.classList.add('active');
-            }
+    let downloadBtn = downloadLink
+      ? `<a class="download-btn" href="${downloadLink}" target="_blank">DOWNLOAD ↓</a>`
+      : '';
 
-            updateDisplay();
-        }
+    card.innerHTML = `
+      <div class="album-card-left">
+        <div class="album-title">${titleHTML}</div>
+        <div class="album-genres">[${rawGenres}]</div>
+      </div>
+      ${downloadBtn}
+    `;
+    albumListDiv.appendChild(card);
+  });
 
-        function updateDisplay() {
-            const cards = document.querySelectorAll('.album-card');
-            const totalAlbums = cards.length;
-            let visibleCount = 0;
+  Array.from(uniqueGenres).sort().forEach(genre => {
+    const btn = document.createElement('button');
+    btn.className = 'tag';
+    btn.innerText = genre;
+    btn.onclick = function() { toggleGenre(genre, btn); };
+    cloud.appendChild(btn);
+  });
 
-            cards.forEach(card => {
-                if (activeTags.size === 0) {
-                    card.style.display = 'block';
-                    visibleCount++;
-                } else {
-                    const genresArray = JSON.parse(card.getAttribute('data-genres'));
-                    const hasMatch = [...activeTags].some(tag => genresArray.includes(tag));
-                    if (hasMatch) {
-                        card.style.display = 'block';
-                        visibleCount++;
-                    } else {
-                        card.style.display = 'none';
-                    }
-                }
-            });
+  function toggleGenre(targetGenre, btnElement) {
+    const resetBtn = document.querySelector('.reset-btn');
+    if (targetGenre === 'all') {
+      activeTags.clear();
+      document.querySelectorAll('.tag').forEach(b => b.classList.remove('active'));
+      resetBtn.classList.add('active');
+    } else {
+      resetBtn.classList.remove('active');
+      if (activeTags.has(targetGenre)) {
+        activeTags.delete(targetGenre);
+        btnElement.classList.remove('active');
+      } else {
+        activeTags.add(targetGenre);
+        btnElement.classList.add('active');
+      }
+    }
+    if (activeTags.size === 0) resetBtn.classList.add('active');
+    updateDisplay();
+  }
 
-            const statsContainer = document.getElementById('statsContainer');
-            const statsBar = document.getElementById('statsBar');
-            const statsPercentage = document.getElementById('statsPercentage');
-            const statsCount = document.getElementById('statsCount');
+  function updateDisplay() {
+    const cards = document.querySelectorAll('.album-card');
+    const totalAlbums = cards.length;
+    let visibleCount = 0;
 
-            if (activeTags.size === 0) {
-                statsContainer.style.display = 'none'; 
-            } else {
-                statsContainer.style.display = 'block'; 
-                const percent = ((visibleCount / totalAlbums) * 100).toFixed(1);
-                statsBar.style.width = percent + '%';
-                statsPercentage.innerText = percent + '% of Archive';
-                statsCount.innerText = visibleCount + ' / ' + totalAlbums + ' Albums';
-            }
-        }
-    </script>
+    cards.forEach(card => {
+      if (activeTags.size === 0) {
+        card.style.display = 'flex';
+        visibleCount++;
+      } else {
+        const genresArray = JSON.parse(card.getAttribute('data-genres'));
+        const hasMatch = [...activeTags].some(tag => genresArray.includes(tag));
+        card.style.display = hasMatch ? 'flex' : 'none';
+        if (hasMatch) visibleCount++;
+      }
+    });
+
+    const statsContainer = document.getElementById('statsContainer');
+    if (activeTags.size === 0) {
+      statsContainer.style.display = 'none';
+    } else {
+      statsContainer.style.display = 'block';
+      const percent = ((visibleCount / totalAlbums) * 100).toFixed(1);
+      document.getElementById('statsBar').style.width = percent + '%';
+      document.getElementById('statsPercentage').innerText = percent + '% of Archive';
+      document.getElementById('statsCount').innerText = visibleCount + ' / ' + totalAlbums + ' Albums';
+    }
+  }
+</script>
 </body>
 </html>
