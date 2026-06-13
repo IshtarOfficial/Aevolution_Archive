@@ -66,4 +66,5 @@ const rawAlbumData = `
 [Ælfcore/Noise Rap/Unsafe] - ÆVOLUTION | https://drive.google.com/drive/folders/1jTyZv5_byBs2YLI6QtE7QlB4DzqzAh4T?usp=drive_link
 [Alternative Pop/Alternative Metal/Alternative Electro/Russian] - ПРОТОКОЛ INSÆNITY | https://drive.google.com/drive/folders/1MPJmjNS2la-YBZHdlAgOoaninA2qGN0Y?usp=drive_link
 [J-Rock/Batcave/Death Rock/Goth Rock/Japanese/Anthem/Retro Anime] - GODDESS OF THE WIRE | https://drive.google.com/drive/folders/1KdnU7fZjcF26JV3zmCMOPkqOhkipDFFB?usp=drive_link
+[Batcave/Death Rock/Goth Rock/Hindi] - HANSTI RAHUNGI | https://drive.google.com/drive/folders/1PTimceVyO_0GmKMUqA700ThqBX-iN55E?usp=drive_link
 `;
