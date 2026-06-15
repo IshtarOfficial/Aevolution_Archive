@@ -553,8 +553,9 @@ footer span { color: var(--magenta); }
     const videoFrame = document.getElementById('videoFrame');
     const videoOverlay = document.getElementById('videoOverlay');
     
-    // [FIXED] Updated to proper template literal syntax and explicit secure embed endpoint
-    videoFrame.src = `https://youtube.com{youtubeId}?autoplay=1&rel=0`;
+    // SAFE CONCATENATION (Avoids any backtick/quote issues entirely)
+    videoFrame.src = "https://www.youtube.com/embed/" + youtubeId + "?autoplay=1&rel=0";
+    
     videoOverlay.style.display = 'flex'; 
   }
 
