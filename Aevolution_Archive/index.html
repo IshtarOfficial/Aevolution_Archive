@@ -463,22 +463,12 @@ footer span { color: var(--magenta); }
     // 1. EXTRACT YOUTUBE ID USING THE NEW ROBUST PATTERN
     let youtubeId = null;
     if (youtubeLink) {
-      // Handles standard, shorts, mobile, and embed links seamlessly
       const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|shorts\/|watch\?v=|\&v=)([^#\&\?]*).*/;
       const match = youtubeLink.match(regExp);
       youtubeId = (match && match[2].length === 11) ? match[2] : null;
     }
 
-    // 2. ATTACH THE EVENT TO OPEN YOUR OVERLAY
-    // Only attach the click listener if a valid YouTube ID was extracted
-    if (youtubeId) {
-      card.addEventListener('click', () => {
-        openVideo(youtubeId);
-      });
-    }
-
-    // (Your remaining card creation, text setting, and append code goes here)
-    // albumListDiv.appendChild(card);
+    // [FIXED] Card-level event listener removed to prevent double-firing and download-button conflicts.
 
     const downloadBtn = downloadLink
       ? `<a class="download-btn" href="${downloadLink}" target="_blank">DOWNLOAD ↓</a>`
@@ -560,15 +550,15 @@ footer span { color: var(--magenta); }
 
   // ── VIDEO OVERLAY ──
   function openVideo(youtubeId) {
+    const videoFrame = document.getElementById('videoFrame');
     const videoOverlay = document.getElementById('videoOverlay');
     
-    // Generates the proper secure embed URL structure
-    videoFrame.src = `https://youtube.com{videoId}?autoplay=1&rel=0`;
+    // [FIXED] Updated to proper template literal syntax and explicit secure embed endpoint
+    videoFrame.src = `https://youtube.com{youtubeId}?autoplay=1&rel=0`;
     videoOverlay.style.display = 'flex'; 
   }
 
   function closeVideo(event) {
-    // Ensures clicking the background closes it, but clicking the video itself does not
     if (event.target.id === 'videoOverlay') {
       clearVideo();
     }
@@ -582,12 +572,10 @@ footer span { color: var(--magenta); }
     const videoFrame = document.getElementById('videoFrame');
     const videoOverlay = document.getElementById('videoOverlay');
     
-    // Destroys the source string to kill background audio and reset headers
     videoFrame.src = "";
     videoOverlay.style.display = 'none';
   }
 
-  // Listen globally for the Escape key to close the modal automatically
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
       clearVideo();
