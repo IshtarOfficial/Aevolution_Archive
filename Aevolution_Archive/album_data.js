@@ -68,5 +68,6 @@ const rawAlbumData = `
 [J-Rock/Batcave/Death Rock/Goth Rock/Japanese/Anthem/Retro Anime] - GODDESS OF THE WIRE | https://drive.google.com/drive/folders/1KdnU7fZjcF26JV3zmCMOPkqOhkipDFFB?usp=drive_link | https://www.youtube.com/watch?v=hLQj8RrzNxo
 [Batcave/Death Rock/Goth Rock/Hindi] - HANSTI RAHUNGI | https://drive.google.com/drive/folders/1PTimceVyO_0GmKWKMfRxV9Yql2neni?usp=drive_link | 
 [Batcave/Death Rock/Goth Rock/Experimental Darkwave/Darkwave] - XENOWITCH | https://drive.google.com/drive/folders/1M8Hk6Zy2r8ZIal0sSRhbh4oHqLwA1kDH?usp=drive_link | 
+[Batcave/Death Rock/Goth Rock/Experimental Darkwave/Darkwave/Rap/Darkwave/Deathcore/Ælfcore] - The Bratcave Protocol | https://drive.google.com/drive/folders/1uC5BciGo5IANzJqTc-1MYPnmgivNo0FF?usp=drive_link | 
 
 `;
