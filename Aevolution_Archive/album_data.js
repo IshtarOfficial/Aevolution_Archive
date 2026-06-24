@@ -66,7 +66,7 @@ const rawAlbumData = `
 [Ælfcore/Noise Rap/Unsafe] - ÆVOLUTION | https://drive.google.com/drive/folders/1jTyZv5_byBs2YLI6QtE7QlB4DzqzAh4T?usp=drive_link | https://www.youtube.com/watch?v=H9TZAGtwDm4
 [Alternative Pop/Alternative Metal/Alternative Electro/Russian] - ПРОТОКОЛ INSÆNITY | https://drive.google.com/drive/folders/1MPJmjNS2la-YBZHdlAgOoaninA2qGN0Y?usp=drive_link | https://www.youtube.com/watch?v=HaPLnkVaJN0
 [J-Rock/Batcave/Death Rock/Goth Rock/Japanese/Anthem/Retro Anime] - GODDESS OF THE WIRE | https://drive.google.com/drive/folders/1KdnU7fZjcF26JV3zmCMOPkqOhkipDFFB?usp=drive_link | https://www.youtube.com/watch?v=hLQj8RrzNxo
-[Batcave/Death Rock/Goth Rock/Hindi] - HANSTI RAHUNGI | https://drive.google.com/drive/folders/1PTimceVyO_0GmKWKMfRxV9Yql2neni?usp=drive_link | 
+[Batcave/Death Rock/Goth Rock/Hindi] - HANSTI RAHUNGI | https://drive.google.com/drive/folders/1PTimceVyO_0GmKMUqA700ThqBX-iN55E?usp=drive_link | 
 [Batcave/Death Rock/Goth Rock/Experimental Darkwave/Darkwave] - XENOWITCH | https://drive.google.com/drive/folders/1M8Hk6Zy2r8ZIal0sSRhbh4oHqLwA1kDH?usp=drive_link | 
 [Batcave/Death Rock/Goth Rock/Experimental Darkwave/Darkwave/Rap/Darkwave/Deathcore/Ælfcore] - The Bratcave Protocol | https://drive.google.com/drive/folders/1uC5BciGo5IANzJqTc-1MYPnmgivNo0FF?usp=drive_link | 
 
