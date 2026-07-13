@@ -70,5 +70,6 @@ const rawAlbumData = `
 [Aggressive Phonk/Alternative/Alternative Electro/Alternative Pop/Blackened Death/Breakbeat/Coldwave/Cybergrind/Dark Trap/Death Metal/Deathcore/Electro/Electro Swing/Glitch Core/Glitch Metal/Glitch Pop/Hip Hop/Indie/Industrial Metal/Industrial Rock/New Wave/Nightcore/Noise Punk/Noise Rap/Nu Metal/Post Punk/Rap/RnB/Russian/Screamo Metal/Shoegaze/Soul/Synth Pop/Synth Punk/Synthwave/Trap/Trap Metal/Ægirwave/Ælfcore/Ængine/Æpep/Ærupt] - ПРОТОКОЛ INSÆNITY | https://drive.google.com/drive/folders/1MPJmjNS2la-YBZHdlAgOoaninA2qGN0Y?usp=drive_link | https://www.youtube.com/watch?v=HaPLnkVaJN0
 [Aggressive Phonk/Phonk/Dark Trap/Hip Hop/Noise Rap/Rap/Trap/Trap Metal/Æpep] - SYSTEM OVERRIDE | https://drive.google.com/drive/folders/1Ejl7Jw0AR64Ayzuh-R8B5cVX7nQT0dec?usp=drive_link | 
 [Aggressive Phonk/Phonk/Dark Trap/Noise Rap/Rap/Trap/Trap Metal/Æpep] - FERAL FREQUENCY | https://drive.google.com/drive/folders/1N3qPKkEoEVG1SoXESVKVE5Unz4o_Za2i?usp=drive_link | 
+[Experimental Darkwave/Ælfrock/Batcave/Death Rock/Goth Rock/Horror Punk/Trap/Æpep] - HEX ADDICT | https://drive.google.com/drive/folders/1kwxSoJAzMN-85im4eaqmSwUxno4C8Kyg?usp=drive_link | 
 
 `;
