@@ -71,5 +71,5 @@ const rawAlbumData = `
 [Aggressive Phonk/Phonk/Dark Trap/Hip Hop/Noise Rap/Rap/Trap/Trap Metal/Æpep] - SYSTEM OVERRIDE | https://drive.google.com/drive/folders/1Ejl7Jw0AR64Ayzuh-R8B5cVX7nQT0dec?usp=drive_link | 
 [Aggressive Phonk/Phonk/Dark Trap/Noise Rap/Rap/Trap/Trap Metal/Æpep] - FERAL FREQUENCY | https://drive.google.com/drive/folders/1N3qPKkEoEVG1SoXESVKVE5Unz4o_Za2i?usp=drive_link | 
 [Experimental Darkwave/Ælfrock/Batcave/Death Rock/Goth Rock/Horror Punk/Trap/Æpep] - HEX ADDICT | https://drive.google.com/drive/folders/1kwxSoJAzMN-85im4eaqmSwUxno4C8Kyg?usp=drive_link | 
-
+[Experimental Darkwave/Ælfrock/Batcave/Death Rock/Goth Rock/Horror Punk/Arabic] - JINNIYYAH | https://drive.google.com/drive/folders/1X5beM09m7O8eY2gm2k5_0DlazOPXbdz2?usp=drive_link | 
 `;
