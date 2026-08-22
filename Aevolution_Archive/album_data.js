@@ -1,5 +1,6 @@
 const rawAlbumData = `
-[Ethereal Wave/Dreampop/Shoegaze/Cozy] - THE GLITCH ORCHID | https://drive.google.com/drive/folders/1g46dYm04cpKcKUPFWeQsW_11sMeC70tk?usp=drive_link | 
+[Horror Punk/Batcave/Death Rock/Proto Punk] - ÆNTHROPOCENE | https://drive.google.com/drive/folders/16pRPrA2tlVuiBasQGkJCibj3wfAaizkw?usp=drive_link | 
+[Ethereal Wave/Dreampop/Shoegaze/Cozy] - THE GLITCH ORCHID | https://drive.google.com/drive/folders/1g46dYm04cpKcKUPFWeQsW_11sMeC70tk?usp=drive_link | https://www.youtube.com/watch?v=6kjNCWQVDlA
 [Aggressive Phonk/Alternative/Alternative Pop/Breakbeat/Dark Trap/Electro Swing/Glitch Core/Glitch Pop/Hip Hop/Rap/RnB/Soul/Trap/Æpep/Ærupt] - AGGRESSIVE APATHY | https://drive.google.com/drive/folders/11qoguwRVXYhBZpVT9NbdT0hV5Q8TGIQR?usp=drive_link | https://www.youtube.com/watch?v=EJgVgFKaMtU
 [Alternative Electro/Batcave/Blackened Death/Coldwave/Cybergrind/Darkwave/Death Metal/Death Rock/Deathcore/Electro/Experimental Darkwave/Glitch Metal/Goth Rock/Horror Punk/Indie/Industrial Metal/Industrial Rock/New Wave/Nightcore/Noise Punk/Noise Rap/Nu Metal/Post Punk/Ritual Electro/Screamo Metal/Shoegaze/Synth Pop/Synth Punk/Synthwave/Trap Metal/Witchouse/Ægirwave/Ælfcore/Ælfrock/Ængine] - BEIGE MATRIX | https://drive.google.com/drive/folders/1o55gSy9Vw0sii0NPKJH5_9U6qYhXuHhp?usp=drive_link | https://www.youtube.com/watch?v=KENcGMlo9p0
 [8bit/Aggressive Phonk/Alternative/Alternative Pop/Breakbeat/Chiptune/Dark Trap/Electro Swing/Glitch Core/Glitch Pop/Hip Hop/Hyperpop/Pixel Glitch/Rap/RnB/Soul/Trap/Æpep/Ærupt] - BRAINDANCE | https://drive.google.com/drive/folders/1Z8Ga9CmRNnV0FPtOUpxSOS_5qdRonPde?usp=drive_link | https://www.youtube.com/watch?v=4ekDl7aBNW4
@@ -73,5 +74,5 @@ const rawAlbumData = `
 [Aggressive Phonk/Phonk/Dark Trap/Noise Rap/Rap/Trap/Trap Metal/Æpep] - FERAL FREQUENCY | https://drive.google.com/drive/folders/1N3qPKkEoEVG1SoXESVKVE5Unz4o_Za2i?usp=drive_link | 
 [Experimental Darkwave/Ælfrock/Batcave/Death Rock/Goth Rock/Horror Punk/Trap/Æpep] - HEX ADDICT | https://drive.google.com/drive/folders/1kwxSoJAzMN-85im4eaqmSwUxno4C8Kyg?usp=drive_link | 
 [Experimental Darkwave/Ælfrock/Batcave/Death Rock/Goth Rock/Horror Punk/Arabic] - JINNIYYAH | https://drive.google.com/drive/folders/1X5beM09m7O8eY2gm2k5_0DlazOPXbdz2?usp=drive_link | 
-[Ængine/Ælfrock/Death Rock/Horror Punk/Noise Punk] - ÆUGENICS | https://drive.google.com/drive/folders/12HyOV8phx1_agn_F21udKMXPnwgtbRjM?usp=drive_link | 
+[Ængine/Ælfrock/Death Rock/Horror Punk/Noise Punk] - ÆUGENICS | https://drive.google.com/drive/folders/12HyOV8phx1_agn_F21udKMXPnwgtbRjM?usp=drive_link | https://www.youtube.com/watch?v=BIJWWoJ3-XI
 `;
