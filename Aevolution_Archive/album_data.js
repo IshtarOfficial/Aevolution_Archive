@@ -19,7 +19,7 @@ const rawAlbumData = `
 [Cozy/Hip Hop/Intimate/Trap/Æmotion/Æpep/Ærupt] - HAEXE | https://drive.google.com/drive/folders/1XE9qn9FQsLyCy0ZXg2slcPsVkxR2ENmi?usp=drive_link
 [Batcave/Death Rock/Goth Rock/Ælfcore/Ælfrock] - HANSTI_RAHUNGI | https://drive.google.com/drive/folders/1PTimceVyO_0GmKHsMRxV9Yql2neni?usp=drive_link
 [Batcave/Industrial Metal/Ælfcore/Ælfrock/Ængine] - HEX THEM ALL | https://drive.google.com/drive/folders/1lmAciz9Wc2H_Nwc997LjaGZV5qaS2XD_?usp=drive_link | https://www.youtube.com/watch?v=zOS5vQ6g1Q4
-[Cozy/Intimate/Æmotion/Ærotis] - HÆXE PT2 | https://drive.google.com/drive/folders/1MNHusX2GUqLzOaHydIy7GRr4ahdfgcGD?usp=drive_link
+[Cozy/Intimate/Æmotion/Ærotix] - HÆXE PT2 | https://drive.google.com/drive/folders/1MNHusX2GUqLzOaHydIy7GRr4ahdfgcGD?usp=drive_link
 [60s/70s/Classic Rock/Fallout Game] - ISOTOPIA | https://drive.google.com/drive/folders/1SzY7dqh5ooZW7lGK49idKBxhKnhtgHSO?usp=drive_link | https://www.youtube.com/watch?v=XHdqnIocBP4
 [60s/70s/Classic Rock/Fallout Game] - ISOTOPIA BONUS TRACKS | https://drive.google.com/drive/folders/1yVkmmPZKx6yruCuNNgBXFg0xwTc3J08f?usp=drive_link
 [Aggressive Phonk/Breakbeat/Dark Trap/Hip Hop/Rap/RnB/Soul/Trap/Æpep] - LOW RES | https://drive.google.com/drive/folders/127fudIfaB_2EN71xQlY2zbqnZyRd_ABw?usp=drive_link | https://www.youtube.com/watch?v=SXdOKffZ9cI
@@ -28,7 +28,7 @@ const rawAlbumData = `
 [Coldwave/Death Rock/Batcave/Goth Rock/Deathcore/Industrial Metal/Ægirwave/Ælfcore/Ælfrock/Ængine/Ærupt] - NEON BEAST | https://drive.google.com/drive/folders/1q1iCFaRxRNFuazl2O0ODyCQZPv3XUUkP?usp=drive_link | https://www.youtube.com/watch?v=7kCNn6Gtmt0
 [Experimental Darkwave/Ælfrock/Batcave/Death Rock/Goth Rock/Horror Punk/Ælfcore/Ælfrock/Ængine] - NEON NOCTURNE | https://drive.google.com/drive/folders/1aG0sAv1JExoRAXgClMHighzgHN5daV1M?usp=drive_link | https://www.youtube.com/watch?v=s1MGjl2wSwo
 [Experimental Darkwave/Ælfrock/Batcave/Death Rock/Goth Rock/Horror Punk/Ælfcore/Ælfrock/Ængine] - NEON NOCTURNE Æ-SIDES | https://drive.google.com/drive/folders/1uQS-jlngNEWWHlLxi_fy1QprPwpgcrMK?usp=drive_link
-[Chaos Industrial/Dark DnB/Dark Electro/Hard Techno/Industrial Goth/Industrial Noise/Ærotis] - OVERCLOCKED | https://drive.google.com/drive/folders/1gah01KGgW7HmF0XBRbSqTaUuDU7ApD5K?usp=drive_link
+[Chaos Industrial/Dark DnB/Dark Electro/Hard Techno/Industrial Goth/Industrial Noise/Ærotix] - OVERCLOCKED | https://drive.google.com/drive/folders/1gah01KGgW7HmF0XBRbSqTaUuDU7ApD5K?usp=drive_link
 [Anthem/OST/OnceUponInSpace] - Once Upon in Space | https://drive.google.com/drive/folders/1w8xeTbcT-fqCu_wUjxVtdKL6_BojRw5a?usp=drive_link | https://www.youtube.com/watch?v=aIAaXrrNyew
 [8bit/Chiptune/Hyperpop/Pixel Glitch] - PIXELS | https://drive.google.com/drive/folders/1zWkTxsiIyy9H0XXUyL8Hi2UOk8V5L3zH?usp=drive_link | https://www.youtube.com/watch?v=dZqQiueBgP0
 [Alternative Electro/Coldwave/Electro/New Wave/Post Punk/Russian/Synth Pop/Synth Punk/Synthwave/Ægirwave] - SCRIPT | https://drive.google.com/drive/folders/1gKgo528SVV-6RsAE--kQR5DWH8VOEfej?usp=drive_link | https://www.youtube.com/watch?v=m4aTPJmf24w
