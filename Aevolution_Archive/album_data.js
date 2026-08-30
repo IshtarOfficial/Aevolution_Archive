@@ -1,4 +1,5 @@
 const rawAlbumData = `
+[EDM/8bit/Russian Hardbass/Russian/Ægirwave/Æmotion] - KRRRH | https://drive.google.com/drive/folders/1x8rHCrA-YMD4-hS80SRlpJuhCf2cvBxx?usp=drive_link | 
 [Horror Punk/Batcave/Death Rock/Proto Punk/Ælfrock] - ÆNTHROPOCENE | https://drive.google.com/drive/folders/16pRPrA2tlVuiBasQGkJCibj3wfAaizkw?usp=drive_link | 
 [Ethereal Wave/Dreampop/Shoegaze/Cozy/Ælfrock/Ængine] - THE GLITCH ORCHID | https://drive.google.com/drive/folders/1g46dYm04cpKcKUPFWeQsW_11sMeC70tk?usp=drive_link | https://www.youtube.com/watch?v=6kjNCWQVDlA
 [Aggressive Phonk/Hip Hop/Rap/Trap/Æpep/Ærupt] - AGGRESSIVE APATHY | https://drive.google.com/drive/folders/11qoguwRVXYhBZpVT9NbdT0hV5Q8TGIQR?usp=drive_link | https://www.youtube.com/watch?v=EJgVgFKaMtU
@@ -24,7 +25,7 @@ const rawAlbumData = `
 [60s/70s/Classic Rock/Fallout Game] - ISOTOPIA BONUS TRACKS | https://drive.google.com/drive/folders/1yVkmmPZKx6yruCuNNgBXFg0xwTc3J08f?usp=drive_link
 [Aggressive Phonk/Breakbeat/Dark Trap/Hip Hop/Rap/RnB/Soul/Trap/Æpep] - LOW RES | https://drive.google.com/drive/folders/127fudIfaB_2EN71xQlY2zbqnZyRd_ABw?usp=drive_link | https://www.youtube.com/watch?v=SXdOKffZ9cI
 [Aggressive Phonk/Chaos Industrial/Ægirwave/Ængine/Æpep/Ærupt] - MNEMONIC DÆMONS | https://drive.google.com/drive/folders/1vhuMIvgs5CEWipZyD5tmkxVWPTYShKB6?usp=drive_link | https://www.youtube.com/watch?v=o6JrUjI9JiQ
-[8bit/Hip Hop/Hyperpop/Intimate/J-Pop/Japanese/Ægirwave/Æmotion/Æpep] - MY GHOST | https://drive.google.com/drive/folders/1KFs468vP1WIlsqGdwb7Rr0MrdS-aQQIf?usp=drive_link
+[Russian Hardbass/Russian/8bit/Hip Hop/Hyperpop/Intimate/J-Pop/Japanese/Ægirwave/Æmotion/Æpep] - MY GHOST | https://drive.google.com/drive/folders/1KFs468vP1WIlsqGdwb7Rr0MrdS-aQQIf?usp=drive_link
 [Coldwave/Death Rock/Batcave/Goth Rock/Deathcore/Industrial Metal/Ægirwave/Ælfcore/Ælfrock/Ængine/Ærupt] - NEON BEAST | https://drive.google.com/drive/folders/1q1iCFaRxRNFuazl2O0ODyCQZPv3XUUkP?usp=drive_link | https://www.youtube.com/watch?v=7kCNn6Gtmt0
 [Experimental Darkwave/Ælfrock/Batcave/Death Rock/Goth Rock/Horror Punk/Ælfcore/Ælfrock/Ængine] - NEON NOCTURNE | https://drive.google.com/drive/folders/1aG0sAv1JExoRAXgClMHighzgHN5daV1M?usp=drive_link | https://www.youtube.com/watch?v=s1MGjl2wSwo
 [Experimental Darkwave/Ælfrock/Batcave/Death Rock/Goth Rock/Horror Punk/Ælfcore/Ælfrock/Ængine] - NEON NOCTURNE Æ-SIDES | https://drive.google.com/drive/folders/1uQS-jlngNEWWHlLxi_fy1QprPwpgcrMK?usp=drive_link
