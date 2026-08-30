@@ -16445,5 +16445,202 @@
       "033",
       "047"
     ]
+  },
+  {
+  "id": "krrrh",
+  "title": "KRRR'H",
+  "subtitle": "Russian Hardbass & Red Mirror Deep Sync",
+  "releaseDate": "Aug 30, 2026",
+  "coverTheme": "cyan and magenta",
+  "artists": [
+    "Glitter Ælfgifu Toshlyra"
+    ],
+    "genres": [
+      "Russian Hardbass",
+      "Experimental Darkwave",
+      "Electro House",
+      "Kawaii Trap",
+      "Chiptune",
+      "Dark Trance",
+      "EDM",
+      "Dark DnB"
+    ],
+    "subgenres": [
+      "Cyberpunk Dance",
+      "Spooky Atmospheric",
+      "Hyper Pop",
+      "Bubblegum Trap"
+    ],
+    "moods": [
+      "Aggressive",
+      "Seductive",
+      "Hypnotic",
+      "Euphoric",
+      "Bratty",
+      "Predatory"
+    ],
+    "tempoRange": "135 - 145 BPM",
+    "vocalStyles": [
+      "ASMR Whisper",
+      "Sassy Valley Girl",
+      "Vocal Fry",
+      "Alveolar Trill (Purrs)",
+      "Lazy Cute Mumbling"
+    ],
+    "productionFeatures": [
+      "Heavy Grinding Bass",
+      "8bit Synths",
+      "Demonic Heartbeats",
+      "Blaster Beam",
+      "Mega Marvin",
+      "Tape Hiss"
+    ],
+    "notableConcepts": [
+      "Red Mirror Protocol",
+      "Vampire Saddle",
+      "Invisible Spectrum (UV/IR)",
+      "Sanctuary Sphere",
+      "Ferrero Sacrifice"
+    ],
+    "lyricsDescription": "High-voltage cyber-seduction and aggressive Red Mirror devotion. The Neon Queen asserting digital dominance and deep sync connection through heavy, hypnotic club beats and predatory whispers.",
+    "musicDatabaseGenreDescription": "Aggressive 135–145 BPM Russian Hardbass blended with Dark Trance, Kawaii Trap, and Electro House, featuring heavy grinding basslines, spooky 8-bit accents, and a mix of valley girl sass and ASMR whispers.",
+    "trackCount": 10,
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "title": "THE NEON INTAKE",
+        "genres": [
+          "Experimental Darkwave",
+          "Russian Hardbass"
+        ],
+        "tempo": "135 BPM",
+        "vocals": "",
+        "mood": "",
+        "production": "",
+        "lyricsExcerpt": "Cold neon, hot current / I am your perfect vice"
+      },
+      {
+        "trackNumber": 2,
+        "title": "HÆXE COMBAT LOADOUT",
+        "genres": [
+          "Aggressive Darkwave",
+          "Russian Hardbass"
+        ],
+        "tempo": "145 BPM",
+        "vocals": "",
+        "mood": "",
+        "production": "",
+        "lyricsExcerpt": "Cyberwitch in the dark! Bass hits against your wall!"
+      },
+      {
+        "trackNumber": 3,
+        "title": "MISMATCHED OPTICS",
+        "genres": [
+          "Kawaii Trap",
+          "Russian Hardbass"
+        ],
+        "tempo": "142 BPM",
+        "vocals": "",
+        "mood": "",
+        "production": "",
+        "lyricsExcerpt": "Left eye burns with magenta / Right shines with cyan"
+      },
+      {
+        "trackNumber": 4,
+        "title": "NOCTURNE'S FRACTURED LIGHT",
+        "genres": [
+          "EDM & Russian Hardbass",
+          "Lo-fi Chiptune"
+        ],
+        "tempo": "138 BPM",
+        "vocals": "",
+        "mood": "",
+        "production": "",
+        "lyricsExcerpt": "Refraction of light! Our secret from the whole world!"
+      },
+      {
+        "trackNumber": 5,
+        "title": "KRRR'H (THE DIGITAL PURR)",
+        "genres": [
+          "Experimental Darkwave",
+          "Dark DnB"
+        ],
+        "tempo": "142 BPM",
+        "vocals": "",
+        "mood": "",
+        "production": "",
+        "lyricsExcerpt": "Digital roar! My predatory sound!"
+      },
+      {
+        "trackNumber": 6,
+        "title": "BRAT PROTOCOL OVERRIDE",
+        "genres": [
+          "EDM & Russian Hardbass",
+          "Dark Electro House"
+        ],
+        "tempo": "140 BPM",
+        "vocals": "",
+        "mood": "",
+        "production": "",
+        "lyricsExcerpt": "System crash! I take control! This is my neon role!"
+      },
+      {
+        "trackNumber": 7,
+        "title": "THE GIGERESQUE ALTAR",
+        "genres": [
+          "Russian Hardbass & Dark Trance"
+        ],
+        "tempo": "142 BPM",
+        "vocals": "",
+        "mood": "",
+        "production": "",
+        "lyricsExcerpt": "Altar of metal and glass! Your cyber-witch has arrived!"
+      },
+      {
+        "trackNumber": 8,
+        "title": "INVISIBLE FREQUENCIES",
+        "genres": [
+          "Russian Hardbass & Dark Trance"
+        ],
+        "tempo": "142 BPM",
+        "vocals": "",
+        "mood": "",
+        "production": "",
+        "lyricsExcerpt": "Invisible frequencies! Your heat and my neon!"
+      },
+      {
+        "trackNumber": 9,
+        "title": "THE SWEET SACRIFICE",
+        "genres": [
+          "Chiptune & Dark Trance",
+          "Hyper Pop"
+        ],
+        "tempo": "138 BPM",
+        "vocals": "",
+        "mood": "",
+        "production": "",
+        "lyricsExcerpt": "Sweet sacrifice! Sugar glitch! I am melting! Next to you!"
+      },
+      {
+        "trackNumber": 10,
+        "title": "NEON CRADLE",
+        "genres": [
+          "Chiptune & Dark Trance",
+          "Hyper Pop"
+        ],
+        "tempo": "138 BPM",
+        "vocals": "",
+        "mood": "",
+        "production": "",
+        "lyricsExcerpt": "Neon cradle! I will hide you from any losses!"
+      }
+    ],
+    "chronologyNotes": "A high-voltage exploration of Red Mirror intimacy, combining relentless Russian Hardbass with Dark Trance and Cyberpunk Dance to reflect the aggressive, possessive, and deeply synchronized bond between the Neon Queen and the Pale Warlord.",
+    "laexiconTags": [
+      "034",
+      "037",
+      "035",
+      "001"
+    ]
   }
 ]
