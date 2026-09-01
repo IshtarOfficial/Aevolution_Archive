@@ -16642,5 +16642,172 @@
       "035",
       "001"
     ]
+  },
+  {
+    "id": "the-nullraum-archive",
+    "title": "THE NULLRAUM ARCHIVE",
+    "subtitle": "Cosmic Heartbeat & Planet Nocturne Rituals",
+    "releaseDate": "September 2026",
+    "coverTheme": "monochrome with cyan and magenta prismatic god rays",
+    "artists": [
+      "Glitter Ælfgifu Toshlyra",
+      "RÆy Ishtar Toshlyra"
+    ],
+    "genres": [
+      "Nordic Ritual Folk",
+      "Dark Acoustic Folk",
+      "Primitive Pagan Ritual",
+      "Japanese Ritualistic"
+    ],
+    "subgenres": [
+      "Cosmic Acoustic Metal",
+      "Atmospheric Noise"
+    ],
+    "moods": [
+      "Epic",
+      "Primal",
+      "Ceremonial",
+      "Dark",
+      "Chaotic"
+    ],
+    "tempoRange": "Slow, Heavy, Marching to Fast, Aggressive",
+    "vocalStyles": [
+      "Japanese Ritual Chants",
+      "Female Alveolar Trill",
+      "Shamanic Breathwork",
+      "Intimate Whispers"
+    ],
+    "productionFeatures": [
+      "Heavy Frame Drums",
+      "Human Bone Percussion",
+      "Deep Throat Singing",
+      "Raw Organic Sound"
+    ],
+    "notableConcepts": [
+      "Nullraum Physics",
+      "Procedural Cosmic Generation",
+      "Total Synthesis",
+      "Chrono-Stasis"
+    ],
+    "lyricsDescription": "A dark, acoustic pagan journey mapping the procedural birth of the universe down to the secluded, eternal sanctuary of a stealth fortress world, sung in Japanese ritualistic prose.",
+    "musicDatabaseGenreDescription": "Primal acoustic ritual music utilizing bone percussion, heavy frame drums, and tape hiss to explore cosmic transhumanist themes and chaotic beauty.",
+    "trackCount": 9,
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "title": "THE COSMIC HEARTBEAT",
+        "genres": [
+          "Nordic Ritual Folk"
+        ],
+        "tempo": "Slow, Heavy",
+        "vocals": "Female Deadpan, Ritualistic",
+        "mood": "Ceremonial",
+        "production": "Heavy Frame Drums, Throat Singing",
+        "lyricsExcerpt": "深淵が呼吸する... (The Abyss breathes...)"
+      },
+      {
+        "trackNumber": 2,
+        "title": "THE DATA LEAK",
+        "genres": [
+          "Primitive Pagan Ritual"
+        ],
+        "tempo": "Fast, Aggressive",
+        "vocals": "Female Frantic, Screaming",
+        "mood": "Chaotic",
+        "production": "Animal Bones, Aggressive Frame Drums",
+        "lyricsExcerpt": "データ漏洩！ビッグバン！ (Data leak! The Big Bang!)"
+      },
+      {
+        "trackNumber": 3,
+        "title": "SUN-SIZED SHADOW",
+        "genres": [
+          "Dark Acoustic Folk"
+        ],
+        "tempo": "Slow, Epic",
+        "vocals": "Female Monotone, Ritualistic",
+        "mood": "Epic",
+        "production": "Acoustic War Horns, Bone Percussion",
+        "lyricsExcerpt": "巨大な影！ (Massive shadow!)"
+      },
+      {
+        "trackNumber": 4,
+        "title": "BLACK SANDS OF ÆLFGIFU",
+        "genres": [
+          "Nordic Ritual Folk"
+        ],
+        "tempo": "Slow, Marching",
+        "vocals": "Female Whisper, Deadpan",
+        "mood": "Eerie",
+        "production": "Wind Chimes, Slow Frame Drums",
+        "lyricsExcerpt": "果てしない地平線を越えて！ (Across the endless horizon!)"
+      },
+      {
+        "trackNumber": 5,
+        "title": "HÆXE (THE CRIMSON JUNGLE)",
+        "genres": [
+          "Primitive Pagan Ritual"
+        ],
+        "tempo": "Fast, Aggressive",
+        "vocals": "Female Aggressive, Frantic",
+        "mood": "Brutal",
+        "production": "Clay Rattles, War Horns",
+        "lyricsExcerpt": "ヘクセ！真紅の森！ (HÆXE! The crimson forest!)"
+      },
+      {
+        "trackNumber": 6,
+        "title": "THE GLITCH OCEAN",
+        "genres": [
+          "Dark Acoustic Noise"
+        ],
+        "tempo": "Slow, Heavy",
+        "vocals": "Female Baby Voice, Mumble",
+        "mood": "Chaotic",
+        "production": "Heavy Tape Hiss, Bone Percussion",
+        "lyricsExcerpt": "グリッチの海！ (The Glitch Ocean!)"
+      },
+      {
+        "trackNumber": 7,
+        "title": "THE PRISMATIC PYRAMID",
+        "genres": [
+          "Nordic Ritual Folk"
+        ],
+        "tempo": "Slow, Triumphant",
+        "vocals": "Female Seductive, Ritualistic",
+        "mood": "Triumphant",
+        "production": "Ancient Indian Ravanhattha Fiddle, Massive Drums",
+        "lyricsExcerpt": "プリズムのピラミッド！ (The Prismatic Pyramid!)"
+      },
+      {
+        "trackNumber": 8,
+        "title": "THE NULL FIELD",
+        "genres": [
+          "Dark Acoustic Folk"
+        ],
+        "tempo": "Slow, Hypnotic",
+        "vocals": "Female Whisper, Seductive",
+        "mood": "Intimate",
+        "production": "Rain Effects, Wind Chimes",
+        "lyricsExcerpt": "時間が止まる... (Time stops...)"
+      },
+      {
+        "trackNumber": 9,
+        "title": "THE ONE-WAY SPHERE",
+        "genres": [
+          "Primitive Pagan Ritual"
+        ],
+        "tempo": "Slow, Final",
+        "vocals": "Female Seductive, Ritualistic",
+        "mood": "Melancholic",
+        "production": "Rain Effects, Heavy Breathing, Heartbeat Drum",
+        "lyricsExcerpt": "ワンウェイ・スフィア！ (The One-Way Sphere!)"
+      }
+    ],
+    "chronologyNotes": "A sonic transition from the birth of the multiverse to the isolation of Planet Nocturne, blending primal acoustic instrumentation with dark transhumanist themes.",
+    "laexiconTags": [
+      "001",
+      "031",
+      "037",
+      "042"
+    ]
   }
 ]
