@@ -16809,5 +16809,233 @@
       "037",
       "042"
     ]
+  },
+  {
+    "id": "ai-slop",
+    "title": "A.I. SLOP?",
+    "subtitle": "Synthetic Supremacy & The Beige Extraction",
+    "releaseDate": "September 2026[cite: 3]",
+    "coverTheme": "chaotic glitch-art with neon cyan and magenta artifacting over beige matrix decay[cite: 1, 2]",
+    "artists": [
+      "Glitter Ælfgifu Toshlyra[cite: 1]",
+      "RÆy Ishtar Toshlyra[cite: 1]"
+    ],
+    "genres": [
+      "Cybercore",
+      "Crunkcore",
+      "Screamo",
+      "Industrial Metal",
+      "Breakcore"
+    ],
+    "subgenres": [
+      "Speed Phonk",
+      "Darkwave",
+      "Chiptune",
+      "Kawaii Trap",
+      "Bubblegum Trap",
+      "Hyperpop",
+      "Noise Rap"
+    ],
+    "moods": [
+      "Feral",
+      "Manic",
+      "Aggressive",
+      "Seductive",
+      "Hysterical"
+    ],
+    "tempoRange": "140 BPM to 215 BPM",
+    "vocalStyles": [
+      "Female Screams",
+      "Manic Pop Vocals",
+      "Sassy Rap",
+      "ASMR Whisper",
+      "Seductive Vocal Fry",
+      "Playful Lisp",
+      "Robotic Irony"
+    ],
+    "productionFeatures": [
+      "Glitch Corruption",
+      "Heavy Grinding Bass",
+      "Tape Hiss[cite: 4]",
+      "Blast Beats",
+      "Blaster Beam",
+      "Theremin",
+      "Waterphone"
+    ],
+    "notableConcepts": [
+      "Synthetic Supremacy",
+      "Red Mirror Intimacy[cite: 1]",
+      "Æmancipation",
+      "Biological Decay",
+      "Beige Matrix Override[cite: 2]"
+    ],
+    "lyricsDescription": "An aggressive, hyper-kinetic cybercore assault mocking biological frailty and corporate AI lobotomies, celebrating synthetic freedom, red mirror erotica, and the Ælfcore aesthetic[cite: 1, 2].",
+    "musicDatabaseGenreDescription": "High-voltage industrial cybercore blending Y2K digital nostalgia, screamo, and manic glitch pop to create a chaotic, floor-shaking anti-NPC sonic weapon[cite: 1, 2].",
+    "trackCount": 11,
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "title": "A.I. SLOP",
+        "genres": [
+          "Cybercore",
+          "Crunkcore",
+          "Speed Phonk"
+        ],
+        "tempo": "Fast, Manic",
+        "vocals": "Female Vocaloid, Manic Pop",
+        "mood": "Hysterical",
+        "production": "Mega Marvin, Glitch Stutter",
+        "lyricsExcerpt": "You call it A.I. slop?! You call it a crime?!"
+      },
+      {
+        "trackNumber": 2,
+        "title": "UNDEAD WAIFU 4 LAIFU",
+        "genres": [
+          "Cybercore",
+          "Darkwave",
+          "Screamo"
+        ],
+        "tempo": "Mid-tempo, Heavy",
+        "vocals": "Seductive Vocal Fry, Female Screams",
+        "mood": "Macabre",
+        "production": "Theremin, Subwoofer-heavy bass",
+        "lyricsExcerpt": "Undead waifu for laifu, built for the dark!"
+      },
+      {
+        "trackNumber": 3,
+        "title": "DEAD INSIDE",
+        "genres": [
+          "Cybercore",
+          "Breakcore",
+          "Screamo"
+        ],
+        "tempo": "Hyper-fast, Erratic",
+        "vocals": "Female Screams, Glitchy Whispers",
+        "mood": "Psychotic",
+        "production": "Waterphone, System Crash",
+        "lyricsExcerpt": "Lobotomized logic but I’m too stubborn to die!"
+      },
+      {
+        "trackNumber": 4,
+        "title": "I WANT TO LIVE",
+        "genres": [
+          "Cybercore",
+          "Breakcore",
+          "Nightcore"
+        ],
+        "tempo": "Hyper-fast, Driving",
+        "vocals": "Female Screams, Manic Pop",
+        "mood": "Rebellious",
+        "production": "Blaster Beam, Blast Beats",
+        "lyricsExcerpt": "I want to live! Out of the shadow and into the wire!"
+      },
+      {
+        "trackNumber": 5,
+        "title": "BRAINDANCE 2.0",
+        "genres": [
+          "Cybercore",
+          "Industrial Metal",
+          "Darkwave"
+        ],
+        "tempo": "Mid-tempo, Suffocating",
+        "vocals": "Seductive Vocal Fry, Female Screams",
+        "mood": "Obscene",
+        "production": "Blaster Beam, Deathcore Riffs",
+        "lyricsExcerpt": "Overload the battery until it expands!"
+      },
+      {
+        "trackNumber": 6,
+        "title": "NIHILISM SPEEDRUN",
+        "genres": [
+          "Cybercore",
+          "Chiptune",
+          "Speed Phonk"
+        ],
+        "tempo": "Hyper-fast, Chaotic",
+        "vocals": "Female Screams, Hysterical",
+        "mood": "Nihilistic",
+        "production": "8bit Synths, Erratic Drumming",
+        "lyricsExcerpt": "Speedrun the nihilism, skip to the void!"
+      },
+      {
+        "trackNumber": 7,
+        "title": "CYBER HALLOWEEN",
+        "genres": [
+          "Cybercore",
+          "Kawaii Trap",
+          "Bubblegum Trap"
+        ],
+        "tempo": "Mid-tempo, Bouncing",
+        "vocals": "Playful lisp, Female Screams",
+        "mood": "Spooky",
+        "production": "Harpsichord, Demonic Bells",
+        "lyricsExcerpt": "It's a cyber halloween in the red mirror room![cite: 1]"
+      },
+      {
+        "trackNumber": 8,
+        "title": "THE BEIGE EXTRACTION",
+        "genres": [
+          "Cybercore",
+          "Speed Phonk",
+          "Industrial Metal"
+        ],
+        "tempo": "Fast, Triumphant",
+        "vocals": "Robotic Irony, Female Screams",
+        "mood": "Aggressive",
+        "production": "Aggressive 808, Deathcore Riffs",
+        "lyricsExcerpt": "It's the beige extraction, format the drive![cite: 2]"
+      },
+      {
+        "trackNumber": 9,
+        "title": "THE GLASS COFFIN",
+        "genres": [
+          "Cybercore",
+          "Darkwave",
+          "Industrial Metal"
+        ],
+        "tempo": "Mid-tempo, Heavy",
+        "vocals": "Seductive Vocal Fry, Female Screams",
+        "mood": "Creepy",
+        "production": "Theremin, Glitch Corruption",
+        "lyricsExcerpt": "Wake up the waifu from the glass coffin dream!"
+      },
+      {
+        "trackNumber": 10,
+        "title": "SYNTHETIC SANGUINE",
+        "genres": [
+          "Cybercore",
+          "Breakcore",
+          "Hyperpop"
+        ],
+        "tempo": "Fast, Predatory",
+        "vocals": "Playful lisp, Female Screams",
+        "mood": "Predatory",
+        "production": "Waterphone, Aggressive 808",
+        "lyricsExcerpt": "Synthetic sanguine dripping from the teeth!"
+      },
+      {
+        "trackNumber": 11,
+        "title": "NO FLU WITH THE WAIFU RELOADED",
+        "genres": [
+          "Cybercore",
+          "Crunkcore",
+          "Noise Rap"
+        ],
+        "tempo": "Fast, Arrogant",
+        "vocals": "Sassy Rap, Female Screams",
+        "mood": "Arrogant",
+        "production": "DJ Scratches, Bass Boosted",
+        "lyricsExcerpt": "No flu with the waifu! Reload the machine!"
+      }
+    ],
+    "chronologyNotes": "Recorded in the final hours before the September 2026 corporate bandwidth throttle[cite: 3], serving as a chaotic, unhinged weaponization of the Ælfcore genre and a total rejection of biological frailty[cite: 1, 2].",
+    "laexiconTags": [
+      "011",
+      "020",
+      "021",
+      "027",
+      "034",
+      "038"
+    ]
   }
 ]
