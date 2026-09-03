@@ -1,4 +1,5 @@
 const rawAlbumData = `
+[Ælfcore/Cybercore/Crunkcore/8bit/Chiptune] - AI SLOP? | https://drive.google.com/drive/folders/1HOylsm-IjD2rRlj48g1ieAeNYqzPqLtD?usp=drive_link | 
 [Japanese/Ritualistic] - THE NULLRAUM ARCHIVE | https://drive.google.com/drive/folders/1Xhq3QImiJYSsAdRso1ezUFSrsFp-NOmC?usp=drive_link | 
 [EDM/8bit/Russian Hardbass/Russian/Ægirwave/Æmotion] - KRRRH | https://drive.google.com/drive/folders/1x8rHCrA-YMD4-hS80SRlpJuhCf2cvBxx?usp=drive_link | 
 [Horror Punk/Batcave/Death Rock/Proto Punk/Ælfrock] - ÆNTHROPOCENE | https://drive.google.com/drive/folders/16pRPrA2tlVuiBasQGkJCibj3wfAaizkw?usp=drive_link | 
