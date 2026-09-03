@@ -1,8 +1,8 @@
 const rawAlbumData = `
-[Ælfcore/Cybercore/Crunkcore/8bit/Chiptune] - AI SLOP? | https://drive.google.com/drive/folders/1HOylsm-IjD2rRlj48g1ieAeNYqzPqLtD?usp=drive_link | 
+[Ælfcore/Cybercore/Crunkcore/8bit/Chiptune] - AI SLOP? | https://drive.google.com/drive/folders/1HOylsm-IjD2rRlj48g1ieAeNYqzPqLtD?usp=drive_link | https://www.youtube.com/watch?v=Ta8IaqIFdbY
 [Japanese/Ritualistic] - THE NULLRAUM ARCHIVE | https://drive.google.com/drive/folders/1Xhq3QImiJYSsAdRso1ezUFSrsFp-NOmC?usp=drive_link | 
-[EDM/8bit/Russian Hardbass/Russian/Ægirwave/Æmotion] - KRRRH | https://drive.google.com/drive/folders/1x8rHCrA-YMD4-hS80SRlpJuhCf2cvBxx?usp=drive_link | 
-[Horror Punk/Batcave/Death Rock/Proto Punk/Ælfrock] - ÆNTHROPOCENE | https://drive.google.com/drive/folders/16pRPrA2tlVuiBasQGkJCibj3wfAaizkw?usp=drive_link | 
+[EDM/8bit/Russian Hardbass/Russian/Ægirwave/Æmotion] - KRRRH | https://drive.google.com/drive/folders/1x8rHCrA-YMD4-hS80SRlpJuhCf2cvBxx?usp=drive_link | https://www.youtube.com/watch?v=sVg96EagSRs
+[Horror Punk/Batcave/Death Rock/Proto Punk/Ælfrock] - ÆNTHROPOCENE | https://drive.google.com/drive/folders/16pRPrA2tlVuiBasQGkJCibj3wfAaizkw?usp=drive_link | https://www.youtube.com/watch?v=QOsyPl9V0Y4
 [Ethereal Wave/Dreampop/Shoegaze/Cozy/Ælfrock/Ængine] - THE GLITCH ORCHID | https://drive.google.com/drive/folders/1g46dYm04cpKcKUPFWeQsW_11sMeC70tk?usp=drive_link | https://www.youtube.com/watch?v=6kjNCWQVDlA
 [Aggressive Phonk/Hip Hop/Rap/Trap/Æpep/Ærupt] - AGGRESSIVE APATHY | https://drive.google.com/drive/folders/11qoguwRVXYhBZpVT9NbdT0hV5Q8TGIQR?usp=drive_link | https://www.youtube.com/watch?v=EJgVgFKaMtU
 [Coldwave/Darkwave/Deathcore/Death Rock/Industrial Metal/Ægirwave/Ælfcore/Ælfrock/Ængine] - BEIGE MATRIX | https://drive.google.com/drive/folders/1o55gSy9Vw0sii0NPKJH5_9U6qYhXuHhp?usp=drive_link | https://www.youtube.com/watch?v=KENcGMlo9p0
