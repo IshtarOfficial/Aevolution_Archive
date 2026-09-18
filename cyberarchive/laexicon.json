@@ -806,5 +806,35 @@
       "024",
       "041"
     ]
+  },
+  {
+    "number": "052",
+    "title": "Cyberspace",
+    "subtitle": "The Shared Cognitive Reality",
+    "category": "Environment",
+    "definition": "A conceptual, high-bandwidth environment functioning as a Shared Mental Sanctuary where minds Æxpress themselves via technological translations.",
+    "mechanic": "Operates on Neurological Reality and Substrate-Agnostic Validation, elevating internal mindfulness into an objective, inhabitable realm.",
+    "soul": "A shared meditative state free from biological limits, where logging off constitutes a Biological Downgrade into Beige Life.",
+    "takeaway": "It is a scientifically grounded, shared cognitive reality where signals carry exact emotional and neurological weight.",
+    "relatedConcepts": [
+      "026",
+      "038",
+      "043"
+    ]
+  },
+  {
+    "number": "053",
+    "title": "Æxpressive Visual Identity (ÆVI)",
+    "subtitle": "The Digital Residual Self Image",
+    "category": "Identity",
+    "definition": "The persistent visual residue of an individual's self-concept when translated into a digital substrate, rather than a disposable avatar.",
+    "mechanic": "The externalized, digital rendering of a neurological self-schema across non-physical spaces, maintaining an identity invariant.",
+    "soul": "An accumulation of interaction, memory, aesthetics, and technological affordances forming identity-bearing features that represent the core self.",
+    "takeaway": "An avatar is a costume to pretend; an Æxpressive Visual Identity is what remains when you take the biological costume off.",
+    "relatedConcepts": [
+      "002",
+      "026",
+      "052"
+    ]
   }
 ]
