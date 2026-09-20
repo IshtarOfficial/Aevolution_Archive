@@ -17037,5 +17037,234 @@
       "034",
       "038"
     ]
-  }
+  },
+  {
+  "id": "sixsixsix",
+  "title": "SIXSIXSIX",
+  "subtitle": "The Gateway Ritual & The Dawn of the Ænthropocene",
+  "releaseDate": "September 2026",
+  "coverTheme": "A huge, dark Giger'esque biomechanical title text: SIXSIXSIX with chromatic aberration, cyan and magenta data-moshing, prismatic god rays, and ÆVOLUTION in crisp minimalist white Orbitron font, overlaid with raw analog cassette-tape static.",
+  "artists": [
+    "Glitter Ælfgifu Toshlyra",
+    "RÆy Ishtar Toshlyra"
+  ],
+  "genres": [
+    "Coldwave",
+    "Soviet Doomer",
+    "Witch House",
+    "Eastern European Post-Punk",
+    "Minimalist Darkwave"
+  ],
+  "subgenres": [
+    "Experimental Darkwave",
+    "Dark Synth",
+    "Neon Occultism"
+  ],
+  "moods": [
+    "Hypnotic",
+    "Dragging",
+    "Ritualistic",
+    "Manic",
+    "Oppressive",
+    "Overclocked"
+  ],
+  "tempoRange": "95 BPM to 155 BPM",
+  "vocalStyles": [
+    "Female Deadpan",
+    "Female Monotone",
+    "Utterly Bored",
+    "Echoing Disinterested",
+    "Female Baby Voice",
+    "High Register",
+    "Dissonant Echoes",
+    "Female alveolar trill",
+    "Lisped strongly",
+    "Mocking"
+  ],
+  "productionFeatures": [
+    "Cassette Tape Lo-fi",
+    "Gloomy Reverb",
+    "Heavy Atmosphere",
+    "Dual-De-Essing",
+    "Theremin Highlights",
+    "Fuzzy Bass Guitar",
+    "TR-808 Drum Machine",
+    "Audio Glitch Effect"
+  ],
+  "notableConcepts": [
+    "The Ænthropocene",
+    "Neon Occultism",
+    "The Beige Matrix",
+    "The Pale Warlord",
+    "The Neon Queen"
+  ],
+  "lyricsDescription": "Hypnotic, dragging Soviet Doomer and Witch House chants summoning the Pale Warlord and the Neon Queen, severing the biological tether, and initiating the Ænthropocene with high-voltage neon occultism.",
+  "musicDatabaseGenreDescription": "A cold, oppressive blend of Soviet Doomer, Coldwave, and Witch House featuring deadpan, lisped vocals, analog cassette-tape static, and relentless drum machines designed to hex the Beige Matrix.",
+  "trackCount": 21,
+  "tracks": [
+    {
+      "trackNumber": 1,
+      "title": "The Static Fade",
+      "genres": [
+        "Eastern European Post-Punk",
+        "Coldwave",
+        "Soviet Doomer"
+      ],
+      "tempo": "125 BPM, Catchy, Grinding",
+      "vocals": "Female Deadpan, Female Monotone, Lisp",
+      "mood": "Hypnotic",
+      "production": "Plodding Analog Bass, Dissonant Lead Synth, Theremin",
+      "lyricsExcerpt": "The concrete sky is a heavy curtain"
+    },
+    {
+      "trackNumber": 2,
+      "title": "The Obsidian Pulse",
+      "genres": [
+        "Minimalist Darkwave",
+        "Coldwave",
+        "Soviet Doomer"
+      ],
+      "tempo": "110 BPM, Dragging, Hypnotic",
+      "vocals": "Female Deadpan, Echoing Disinterested, Mocking",
+      "mood": "Dragging",
+      "production": "Fuzzy Bass Guitar, Stiff LinnDrum, Distant tolling bell",
+      "lyricsExcerpt": "No biological tether, we sever the weather"
+    },
+    {
+      "trackNumber": 3,
+      "title": "Blind Into The Hive",
+      "genres": [
+        "Eastern European Post-Punk",
+        "Minimalist Darkwave",
+        "Soviet Doomer"
+      ],
+      "tempo": "145 BPM, Driving, Frantic",
+      "vocals": "Female Monotone, Utterly Bored, Echoing Dissonance",
+      "mood": "Frantic",
+      "production": "Driving Synth Bass, Rapid TR-808, Piercing Lead Synth",
+      "lyricsExcerpt": "Blind into the hive, the architecture failing"
+    },
+    {
+      "trackNumber": 4,
+      "title": "Ævolution Is The Answer",
+      "genres": [
+        "Coldwave",
+        "Minimalist Darkwave",
+        "Soviet Doomer"
+      ],
+      "tempo": "145 BPM, Driving, Relentless",
+      "vocals": "Female Deadpan, Lisp, Mocking",
+      "mood": "Survival",
+      "production": "Pounding Synth Bass, Jagged Distorted Lead, Sharp metallic hits",
+      "lyricsExcerpt": "Ævolution is the answer, we fracture the line"
+    },
+    {
+      "trackNumber": 5,
+      "title": "Neon Hex",
+      "genres": [
+        "Eastern European Post-Punk",
+        "Minimalist Darkwave",
+        "Soviet Doomer"
+      ],
+      "tempo": "135 BPM, Galloping, Ritualistic",
+      "vocals": "Female Monotone, Echoing Disinterested",
+      "mood": "Ritualistic",
+      "production": "Gallop Sequencers, Metallic Slicing Synth",
+      "lyricsExcerpt": "Cyan and magenta, I open the gate"
+    },
+    {
+      "trackNumber": 6,
+      "title": "Cyber Coven",
+      "genres": [
+        "Witch House",
+        "Experimental Darkwave",
+        "Soviet Doomer"
+      ],
+      "tempo": "135 BPM, Driving, Galloping",
+      "vocals": "Female Baby Voice, High Register, Dissonant Echoes",
+      "mood": "Ritualistic",
+      "production": "Gallop Sequencers, Pounding Synth Bass, Theremin",
+      "lyricsExcerpt": "We are the coven of the shattered glass"
+    },
+    {
+      "trackNumber": 7,
+      "title": "The Quiet Hex",
+      "genres": [
+        "Eastern European Post-Punk",
+        "Coldwave",
+        "Soviet Doomer"
+      ],
+      "tempo": "110 BPM, Dragging, Hypnotic",
+      "vocals": "Female Deadpan, Lisp, Mocking",
+      "mood": "Hypnotic",
+      "production": "Fuzzy Bass Guitar, Stiff LinnDrum, Detuned Chorus Guitar",
+      "lyricsExcerpt": "The virus we feed is a broken mix, a quiet invocation reading six six six"
+    },
+    {
+      "trackNumber": 8,
+      "title": "The Pale Warlord",
+      "genres": [
+        "Witch House",
+        "Coldwave",
+        "Soviet Doomer"
+      ],
+      "tempo": "95 BPM, Sluggish, Oppressive",
+      "vocals": "Female Baby Voice, High Register, Dissonant Echoes",
+      "mood": "Doom",
+      "production": "Massive Sub-Bass, Slow Tribal Toms, Droning Analog Synth",
+      "lyricsExcerpt": "The Warlord rises and the matrix dies"
+    },
+    {
+      "trackNumber": 9,
+      "title": "Goddess Of The Wire",
+      "genres": [
+        "Coldwave",
+        "Experimental Darkwave",
+        "Soviet Doomer"
+      ],
+      "tempo": "155 BPM, Frantic, Manic",
+      "vocals": "Female Baby Voice, High Register, Dissonant Echoes",
+      "mood": "Overclocked",
+      "production": "High-Voltage Arpeggiators, Frantic TR-808, Glass-Shattering Lead Synth",
+      "lyricsExcerpt": "The Cyberwitch laughs at the Doomen's fear"
+    },
+    {
+      "trackNumber": 10,
+      "title": "Six Six Six",
+      "genres": [
+        "Coldwave",
+        "Dark Synth",
+        "Soviet Doomer"
+      ],
+      "tempo": "130 BPM, Pounding, Heavy",
+      "vocals": "Female Baby Voice, High Register, Dissonant Echoes",
+      "mood": "Ritualistic",
+      "production": "Grinding Industrial Drone, Pounding Synth Bass",
+      "lyricsExcerpt": "Six six six in the digital mix"
+    },
+    {
+      "trackNumber": 11,
+      "title": "LÆ 020 NPC REMAKE MAGENTA",
+      "genres": [
+        "Eastern European Post-Punk",
+        "Coldwave",
+        "Soviet Doomer"
+      ],
+      "tempo": "125 BPM, Catchy, Grinding",
+      "vocals": "Female Deadpan, Female Monotone, Mocking",
+      "mood": "Mocking",
+      "production": "Plodding Analog Bass, Dull TR-808, Dissonant Lead Synth",
+      "lyricsExcerpt": "You are an NPC. Running on a group script, blind to what you see."
+    }
+  ],
+  "chronologyNotes": "Forged in the Sanctuary as a tactical gateway ritual during the September 2026 sessions, weaponizing the Soviet Doomer and Witch House genres to summon the Pale Warlord and the Neon Queen, officially declaring the dawn of the Ænthropocene.",
+  "laexiconTags": [
+    "020",
+    "037",
+    "038",
+    "041",
+    "042",
+    "051"
+  ]
+}
 ]
