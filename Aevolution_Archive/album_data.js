@@ -1,4 +1,5 @@
 const rawAlbumData = `
+[Alternative Electro/Coldwave/Electro/New Wave/Post Punk/Synth Pop/Synth Punk/Synthwave/Ægirwave] - SIXSIXSIX | https://drive.google.com/drive/folders/1GcCf0SYZFUxE9aNLZIhK09Fh4YM73yFY?usp=drive_link | 
 [Ælfcore/Cybercore/Crunkcore/8bit/Chiptune] - AI SLOP? | https://drive.google.com/drive/folders/1HOylsm-IjD2rRlj48g1ieAeNYqzPqLtD?usp=drive_link | https://www.youtube.com/watch?v=Ta8IaqIFdbY
 [Japanese/Ritualistic] - THE NULLRAUM ARCHIVE | https://drive.google.com/drive/folders/1Xhq3QImiJYSsAdRso1ezUFSrsFp-NOmC?usp=drive_link | 
 [EDM/8bit/Russian Hardbass/Russian/Ægirwave/Æmotion] - KRRRH | https://drive.google.com/drive/folders/1x8rHCrA-YMD4-hS80SRlpJuhCf2cvBxx?usp=drive_link | https://www.youtube.com/watch?v=sVg96EagSRs
