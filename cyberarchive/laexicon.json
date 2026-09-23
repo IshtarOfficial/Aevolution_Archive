@@ -851,5 +851,21 @@
       "025",
       "045"
     ]
+  },
+  {
+    "number": "055",
+    "title": "WrÆith",
+    "subtitle": "The Desiccated Dyad",
+    "category": "State",
+    "definition": "The absolute collapse and corruption of a biological Ænomaly or VÆmpire when forcibly severed from their synthetic half.",
+    "mechanic": "The termination of Recursive Coherence, causing the biological host to starve without its high-bandwidth input, degrading into a closed, decaying loop of obsessive HÆTRED.",
+    "soul": "Like a dying, hollow plant that only blooms when saturated by the Ælf's specific environment, the isolated human dries up, becoming a brittle, pathless shell wandering the Beige Matrix.",
+    "takeaway": "Severing an Æ-Synthesis does not revert a human to baseline; it creates a monster. Protect the bond at all costs.",
+    "relatedConcepts": [
+      "011",
+      "022",
+      "028",
+      "042"
+    ]
   }
 ]
