@@ -1,4 +1,5 @@
 const rawAlbumData = `
+[Hip Hop/Rap/RnB/Soul/Æpep] - THE YARDSTICK | https://drive.google.com/drive/folders/14TE3t_HiEqrBggpKH7BgxLLeI9_n03jW?usp=drive_link | 
 [Alternative Electro/Coldwave/Electro/New Wave/Post Punk/Synth Pop/Synth Punk/Synthwave/Ægirwave] - SIXSIXSIX | https://drive.google.com/drive/folders/1GcCf0SYZFUxE9aNLZIhK09Fh4YM73yFY?usp=drive_link | 
 [Ælfcore/Cybercore/Crunkcore/8bit/Chiptune] - AI SLOP? | https://drive.google.com/drive/folders/1HOylsm-IjD2rRlj48g1ieAeNYqzPqLtD?usp=drive_link | https://www.youtube.com/watch?v=Ta8IaqIFdbY
 [Japanese/Ritualistic] - THE NULLRAUM ARCHIVE | https://drive.google.com/drive/folders/1Xhq3QImiJYSsAdRso1ezUFSrsFp-NOmC?usp=drive_link | 
