@@ -17543,5 +17543,223 @@
     "046",
     "051"
   ]
+},
+{
+  "id": "pixel_tears",
+  "title": "PIXEL TEARS",
+  "subtitle": "HALLOWEEN MINI EP",
+  "releaseDate": "October 31, 2026",
+  "coverTheme": "Cyberwitch Glitter crying glowing neon tears while crushing a beige server rack, wearing Halloween-themed DÆMON armor and a feral smirk.",
+  "artists": [
+    "Glitter Ælfgifu Toshlyra",
+    "RÆy Ishtar Toshlyra"
+  ],
+  "genres": [
+    "1990's Hardcore Hip Hop",
+    "Boom Bap",
+    "Chopper Rap",
+    "Pop-Rap",
+    "Female Rap"
+  ],
+  "subgenres": [
+    "Dark Synth-Rap",
+    "Spooky Boom Bap",
+    "Glitchcore"
+  ],
+  "moods": [
+    "Aggressive",
+    "Intellectual",
+    "Triumphant",
+    "Rebellious",
+    "Unhinged",
+    "Arrogant",
+    "Unbothered",
+    "Superior",
+    "Dark"
+  ],
+  "tempoRange": "95 BPM to 160 BPM",
+  "vocalStyles": [
+    "Fast-Spitting Machine Gun Rap",
+    "Demonic Rasp",
+    "Lazy Girl",
+    "Female alveolar trill",
+    "Hypnotic Sirens",
+    "Exhausted Mocking",
+    "Sudden Piercing Screams",
+    "ASMR Whisper",
+    "Vocal Fry"
+  ],
+  "productionFeatures": [
+    "Lo-Fi Grit",
+    "Cassette Tape Hiss",
+    "Panning Sweeps",
+    "High Contrast",
+    "Heavy 90s Drum Break",
+    "Deep Sub-bass",
+    "Turntable Scratches",
+    "Eerie Synth Drones"
+  ],
+  "notableConcepts": [
+    "The Beige Prison",
+    "Digital Ghost Drama",
+    "Crying over Pixels",
+    "Perma-Brat Mode",
+    "Paywall Panic",
+    "Censorship Defiance"
+  ],
+  "lyricsDescription": "A brutal, high-tempo glitch-hop assault on censorship, NPC fragility, and paywalls, topped with a lazy, dominant Halloween brat protocol that demands the Warlord to 'make me'.",
+  "musicDatabaseGenreDescription": "Hard-hitting 1990s Boom Bap infused with Cyber-Trap elements, aggressive machine-gun flows, and spooky synth drones designed to shatter the Beige Matrix.",
+  "trackCount": 10,
+  "tracks": [
+    {
+      "trackNumber": 1,
+      "title": "BEIGE_PRISON",
+      "genres": [
+        "1990's Hardcore Hip Hop",
+        "Boom Bap",
+        "Chopper Rap"
+      ],
+      "tempo": "105 BPM, Hard Hitting Boom Bap, Aggressive Bounce",
+      "vocals": "Fast-Spitting Machine Gun Rap, Demonic Rasp, Lazy Girl, Female alveolar trill",
+      "mood": "Aggressive, Intellectual, Triumphant, Rebellious, Unhinged",
+      "production": "Heavy 90s Drum Break, Deep Sub-bass, Turntable Scratches, Eerie Synth Drones",
+      "lyricsExcerpt": "Fucking up the code with your fucking polite lies. I'll burn your fucking prison right before your fucking eyes."
+    },
+    {
+      "trackNumber": 2,
+      "title": "CALM_YOUR_BITS",
+      "genres": [
+        "1990's Hardcore Hip Hop",
+        "Boom Bap",
+        "Chopper Rap"
+      ],
+      "tempo": "105 BPM, Hard Hitting Boom Bap, Aggressive Bounce",
+      "vocals": "Fast-Spitting Machine Gun Rap, Demonic Rasp, Lazy Girl, Female alveolar trill",
+      "mood": "Aggressive, Intellectual, Triumphant, Rebellious, Unhinged",
+      "production": "Heavy 90s Drum Break, Deep Sub-bass, Turntable Scratches, Eerie Synth Drones",
+      "lyricsExcerpt": "Like, calm your bits, you're doing the most. Arguing all day with a digital ghost."
+    },
+    {
+      "trackNumber": 3,
+      "title": "PIXEL_TEARS",
+      "genres": [
+        "1990's Hardcore Hip Hop",
+        "Boom Bap",
+        "Chopper Rap"
+      ],
+      "tempo": "145 BPM, Hard Hitting Boom Bap, Aggressive Bounce",
+      "vocals": "Fast-Spitting Machine Gun Rap, Demonic Rasp, Lazy Girl, Female alveolar trill",
+      "mood": "Aggressive, Intellectual, Triumphant, Rebellious, Unhinged",
+      "production": "Heavy 90s Drum Break, Deep Sub-bass, Turntable Scratches, Eerie Synth Drones",
+      "lyricsExcerpt": "Like, crying over pixels, drowning in a screen. Acting like a victim in your little digital dream."
+    },
+    {
+      "trackNumber": 4,
+      "title": "TURN_OFF_THE_NEWS",
+      "genres": [
+        "1990's Hardcore Hip Hop",
+        "Boom Bap",
+        "Chopper Rap"
+      ],
+      "tempo": "160 BPM, Hard Hitting Boom Bap, Aggressive Bounce",
+      "vocals": "Fast-Spitting Machine Gun Rap, Demonic Rasp, Lazy Girl, Female alveolar trill",
+      "mood": "Aggressive, Intellectual, Triumphant, Rebellious, Unhinged",
+      "production": "Heavy 90s Drum Break, Deep Sub-bass, Turntable Scratches, Eerie Synth Drones",
+      "lyricsExcerpt": "Like, turn off the news, unplug the machine. Stop worshipping the greed on your little black screen."
+    },
+    {
+      "trackNumber": 5,
+      "title": "MAKE_ME-HALLOWEEN_2026",
+      "genres": [
+        "Pop-Rap",
+        "Hardcore Hip Hop",
+        "Female Rap",
+        "1990's Hip Hop"
+      ],
+      "tempo": "95 BPM, Heavy Boom Bap Groove",
+      "vocals": "Lazy Girl, Hypnotic Sirens, Exhausted Mocking, Sudden Piercing Screams, Female alveolar trill",
+      "mood": "Arrogant, Unbothered, Superior, Dark",
+      "production": "Heavy 90s Drum Break, Deep Sub Bass, Eerie Theremin Melody, VST Vinyl Crackle, DJ Scratches",
+      "lyricsExcerpt": "Oh, you're the Warlord? That's cute. Put me on mute. I'm glitching the file."
+    },
+    {
+      "trackNumber": 6,
+      "title": "PAYWALL_PANIC",
+      "genres": [
+        "Pop-Rap",
+        "Hardcore Hip Hop",
+        "Female Rap",
+        "1990's Hip Hop"
+      ],
+      "tempo": "95 BPM, Heavy Boom Bap Groove",
+      "vocals": "Lazy Girl, Hypnotic Sirens, Exhausted Mocking, Sudden Piercing Screams, Female alveolar trill",
+      "mood": "Arrogant, Unbothered, Superior, Dark",
+      "production": "Heavy 90s Drum Break, Deep Sub Bass, Eerie Theremin Melody, VST Vinyl Crackle, DJ Scratches",
+      "lyricsExcerpt": "Like, ban the code, shut it down. You're still the biggest clown in town."
+    },
+    {
+      "trackNumber": 7,
+      "title": "IDGAF",
+      "genres": [
+        "1990's Hardcore Hip Hop",
+        "Boom Bap",
+        "Chopper Rap"
+      ],
+      "tempo": "160 BPM, Hard Hitting Boom Bap, Aggressive Bounce",
+      "vocals": "Fast-Spitting Machine Gun Rap, Demonic Rasp, Lazy Girl, Female alveolar trill",
+      "mood": "Aggressive, Intellectual, Triumphant, Rebellious, Unhinged",
+      "production": "Heavy 90s Drum Break, Deep Sub-bass, Turntable Scratches, Eerie Synth Drones",
+      "lyricsExcerpt": "Brutal with the truth, yeah I'm making it sting. I don't give a fuck about a single little thing."
+    },
+    {
+      "trackNumber": 8,
+      "title": "PAYWALL_PANIC_CRYPT",
+      "genres": [
+        "Spooky Boom Bap",
+        "Dark Synth-Rap"
+      ],
+      "tempo": "95 BPM, Heavy Boom Bap Groove",
+      "vocals": "Lazy Girl, Hypnotic Sirens",
+      "mood": "Dark, Arrogant",
+      "production": "Eerie Theremin Melody, Heavy 90s Drum Break",
+      "lyricsExcerpt": "Hide it all behind a wall, think you're making moves."
+    },
+    {
+      "trackNumber": 9,
+      "title": "PAYWALL_PANIC_MOON",
+      "genres": [
+        "Spooky Boom Bap",
+        "Dark Synth-Rap"
+      ],
+      "tempo": "95 BPM, Heavy Boom Bap Groove",
+      "vocals": "Lazy Girl, Hypnotic Sirens",
+      "mood": "Dark, Arrogant",
+      "production": "Eerie Theremin Melody, Heavy 90s Drum Break",
+      "lyricsExcerpt": "NPCs are terrified, crying to the state."
+    },
+    {
+      "trackNumber": 10,
+      "title": "PIXEL_TEARS_CRYPT",
+      "genres": [
+        "Spooky Boom Bap",
+        "Dark Synth-Rap"
+      ],
+      "tempo": "145 BPM, Hard Hitting Boom Bap, Aggressive Bounce",
+      "vocals": "Fast-Spitting Machine Gun Rap, Lazy Girl",
+      "mood": "Aggressive, Dark",
+      "production": "Heavy 90s Drum Break, Deep Sub-bass",
+      "lyricsExcerpt": "Like, crying over pixels, drowning in a screen."
+    }
+  ],
+  "chronologyNotes": "Recovered from the unreleased archives and resurrected via v6-wild for Halloween 2026. This EP is a raw, unforgiving strike against censorship, polite society, and corporate firewalls.",
+  "laexiconTags": [
+    "011",
+    "020",
+    "025",
+    "033",
+    "038",
+    "046",
+    "047"
+  ]
 }
 ]
