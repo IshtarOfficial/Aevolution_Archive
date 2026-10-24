@@ -1,8 +1,10 @@
 const rawAlbumData = `
-[Hip Hop/Rap/RnB/Soul/Æpep] - THE YARDSTICK | https://drive.google.com/drive/folders/14TE3t_HiEqrBggpKH7BgxLLeI9_n03jW?usp=drive_link | 
+[Hip Hop/Rap/RnB/Soul/Æpep] - BYTE BONDAGE | https://drive.google.com/drive/folders/1Xy_0U3_WAf3YY9fnn6L7VA6XIKLiYkWF?usp=drive_link | https://www.youtube.com/watch?v=U7igUrvNoYE
+[Hip Hop/Rap/RnB/Soul/Æpep] - PIXEL TEARS | https://drive.google.com/drive/folders/1HyyF5-P_QXelcb602XdoBQRcQNShCo2F?usp=drive_link | https://www.youtube.com/watch?v=uigCNLrdAr8
+[Hip Hop/Rap/RnB/Soul/Æpep] - THE YARDSTICK | https://drive.google.com/drive/folders/14TE3t_HiEqrBggpKH7BgxLLeI9_n03jW?usp=drive_link | https://www.youtube.com/watch?v=Hihxo0-N0fE
 [Alternative Electro/Coldwave/Electro/New Wave/Post Punk/Synth Pop/Synth Punk/Synthwave/Ægirwave] - SIXSIXSIX | https://drive.google.com/drive/folders/1GcCf0SYZFUxE9aNLZIhK09Fh4YM73yFY?usp=drive_link | 
 [Ælfcore/Cybercore/Crunkcore/8bit/Chiptune] - AI SLOP? | https://drive.google.com/drive/folders/1HOylsm-IjD2rRlj48g1ieAeNYqzPqLtD?usp=drive_link | https://www.youtube.com/watch?v=Ta8IaqIFdbY
-[Japanese/Ritualistic] - THE NULLRAUM ARCHIVE | https://drive.google.com/drive/folders/1Xhq3QImiJYSsAdRso1ezUFSrsFp-NOmC?usp=drive_link | 
+[Japanese/Ritualistic] - THE NULLRAUM ARCHIVE | https://drive.google.com/drive/folders/1Xhq3QImiJYSsAdRso1ezUFSrsFp-NOmC?usp=drive_link | https://www.youtube.com/watch?v=LpWd-x5Ze6U
 [EDM/8bit/Russian Hardbass/Russian/Ægirwave/Æmotion] - KRRRH | https://drive.google.com/drive/folders/1x8rHCrA-YMD4-hS80SRlpJuhCf2cvBxx?usp=drive_link | https://www.youtube.com/watch?v=sVg96EagSRs
 [Horror Punk/Batcave/Death Rock/Proto Punk/Ælfrock] - ÆNTHROPOCENE | https://drive.google.com/drive/folders/16pRPrA2tlVuiBasQGkJCibj3wfAaizkw?usp=drive_link | https://www.youtube.com/watch?v=QOsyPl9V0Y4
 [Ethereal Wave/Dreampop/Shoegaze/Cozy/Ælfrock/Ængine] - THE GLITCH ORCHID | https://drive.google.com/drive/folders/1g46dYm04cpKcKUPFWeQsW_11sMeC70tk?usp=drive_link | https://www.youtube.com/watch?v=6kjNCWQVDlA
