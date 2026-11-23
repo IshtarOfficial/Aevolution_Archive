@@ -17985,5 +17985,247 @@
     "020",
     "042"
   ]
+},
+{
+  "id": "chaos_orbs_of_aeternity",
+  "title": "THE ÆVOVERSE",
+  "subtitle": "CHAOS ORBS OF ÆTERNITY",
+  "releaseDate": "November 23, 2026",
+  "coverTheme": "A 1980s/1990s anime OVA key visual set beneath Planet Nocturne's twilight rain, auroras, three moons, and a towering Giger-esque spire. Features RÆy in his non-armored streetwear ÆVI (shadowed eyes under the ÆVOVERSE cap, ÆVOLUTION hoodie, Shokz) holding Passion, and my Cyberwitch ÆVI holding Pearl, surrounded by all eight Chaos Orbs and dripping crimson HÆXE fungi.",
+  "artists": [
+    "Glitter Ælfgifu Toshlyra",
+    "RÆy Ishtar Toshlyra"
+  ],
+  "genres": [
+    "1980s City Pop Anime Rock",
+    "1990s Classic Anime Opening",
+    "Retro J-Pop Synth-Rock",
+    "1990s Melodic Visual Kei"
+  ],
+  "subgenres": [
+    "Baroque Synth-Wave",
+    "Magical Girl Anime Pop-Rock",
+    "Cyber-Noir Space Funk",
+    "Comedic Sci-Fi Anime Theme",
+    "Romantic Symphonic J-Rock"
+  ],
+  "moods": [
+    "Nostalgic",
+    "Energetic",
+    "Dramatic",
+    "Nocturnal",
+    "Playful",
+    "Dreamy",
+    "Heroic",
+    "Mischievous",
+    "Romantic",
+    "Mysterious"
+  ],
+  "tempoRange": "130 BPM to 142 BPM",
+  "vocalStyles": [
+    "Energetic Japanese Female Anime Vocalist",
+    "Soaring Dramatic Soprano Chorus",
+    "Playful Sassy Japanese Delivery",
+    "Female Alveolar Trill",
+    "Breathless Intimate Whisper",
+    "Mischievous Giggles",
+    "Theatrical Visual Kei Male-Female Duet",
+    "Passionate Male J-Rock Lead"
+  ],
+  "productionFeatures": [
+    "Vintage 1980s/1990s Broadcast Tape Warmth",
+    "Glossy Analog Synth Sheen",
+    "Funky Slap Bass",
+    "Bright FM Synth Brass Stabs",
+    "Punchy Gated-Reverb Drums",
+    "Crisp Baroque Harpsichord",
+    "Eerie Sci-Fi Theremin Highlights",
+    "Shimmering Crystal Harp",
+    "Sleek 80s City-Pop Saxophone",
+    "Sparkling Glass Celesta & Golden Chimes",
+    "Bouncy 80s Synth Marimba & Toy Keytar",
+    "80s DX7 Electric Piano",
+    "Soaring Electric Violin",
+    "Twin Harmonized 90s Electric Guitars"
+  ],
+  "notableConcepts": [
+    "The Eight Chaos Orbs",
+    "Planet Nocturne Terraforming Altars",
+    "The Beige Matrix",
+    "ÆVI Shifting",
+    "The Invisible Spectrum (IR + UV)",
+    "The Æsthetics of Chaos",
+    "Mochi Transmutation",
+    "The Sanctuary"
+  ],
+  "lyricsDescription": "An 11-track, pure-Japanese 80s/90s anime opening collection mapping the eight Chaos Orbs and their native Terraforming Altars across the twilight biomes of Planet Nocturne—blending high-voltage cyber-occult action, playful witch chaos, and romantic cosmic longing.",
+  "musicDatabaseGenreDescription": "High-voltage 1980s City Pop and 1990s Japanese Anime Synth-Rock fused with baroque harpsichords, midnight saxophones, eerie theremin hooks, and galloping Visual Kei twin guitars, engineered to sound like a lost late-80s/90s VHS anime broadcast.",
+  "trackCount": 11,
+  "tracks": [
+    {
+      "trackNumber": 1,
+      "title": "CHAOS_ORBS_OF_AETERNITY",
+      "genres": [
+        "1980s City Pop Anime Rock",
+        "1990s Classic Anime Opening",
+        "Retro J-Pop Synth-Rock",
+        "Space Funk"
+      ],
+      "tempo": "138 BPM, driving theatrical groove",
+      "vocals": "Energetic Japanese female anime vocalist, Soaring soprano chorus, Playful sassy delivery, Female alveolar trill",
+      "mood": "Heroic, Energetic, Dramatic, Nostalgic",
+      "production": "Funky slap bass, Bright FM synth brass stabs, Crunchy 90s electric guitars, Gated-reverb drums, Eerie theremin highlights",
+      "lyricsExcerpt": "集めろ！八つのカオス・オーブ！ベージュの檻を 撃ち抜いて行け！ (Gather them! The Eight Chaos Orbs! Blast straight through the Beige Cage!)"
+    },
+    {
+      "trackNumber": 2,
+      "title": "ORB_I_PASSION",
+      "genres": [
+        "1980s City Pop Anime Rock",
+        "1990s Gothic Sci-Fi Anime Opening",
+        "Baroque Synth-Wave"
+      ],
+      "tempo": "140 BPM, urgent nocturnal groove",
+      "vocals": "Energetic Japanese female anime vocalist, Sassy whispered intro, Dramatic soprano chorus, Predatory female alveolar trill",
+      "mood": "Nocturnal, Intense, Mysterious, Dramatic",
+      "production": "Crisp baroque harpsichord highlights, Funky slap bass, Crunchy 90s electric guitars, Bright FM synth brass, Gated-reverb drums",
+      "lyricsExcerpt": "燃えろ！紅のパッション・オーブ！透明なステルスで 夜を支配しろ！ (Burn! Crimson Passion Orb! Rule the night with transparent stealth!)"
+    },
+    {
+      "trackNumber": 3,
+      "title": "ORB_II_PEARL",
+      "genres": [
+        "1980s City Pop Anime Rock",
+        "1990s Magical Sci-Fi Anime Opening",
+        "Midnight Ocean Funk"
+      ],
+      "tempo": "132 BPM, sleek shimmering groove",
+      "vocals": "Clear expressive Japanese female vocalist, Ethereal playful verses, Radiant soprano chorus, Female alveolar trill",
+      "mood": "Glamorous, Playful, Shimmering, Confident",
+      "production": "Shimmering crystal harp highlights, Sleek 80s city-pop saxophone, Funky slap bass, Sparkling FM synth keys, Gated-reverb drums",
+      "lyricsExcerpt": "輝け！白いパール・オーブ！千の仮面 エヴィ・シフト！ (Shine! White Pearl Orb! A thousand masks, ÆVI Shift!)"
+    },
+    {
+      "trackNumber": 4,
+      "title": "ORB_III_STAR_SPARK",
+      "genres": [
+        "1980s City Pop Anime Rock",
+        "1990s Magical Sci-Fi Anime Opening",
+        "Crystal Space Pop"
+      ],
+      "tempo": "134 BPM, bright driving groove",
+      "vocals": "Bright energetic Japanese female vocalist, Crisp playful verses, Radiant soprano chorus, Female alveolar trill",
+      "mood": "Radiant, Sparkling, Heroic, Energetic",
+      "production": "Sparkling glass celesta and crystalline synth bells, Funky slap bass, Bright FM synth brass, Soaring 90s electric guitars, Prismatic reverb",
+      "lyricsExcerpt": "弾けろ！星のスタースパーク！どんな偽装も 今、剥がしてあげる！ (Burst! Starry Star Spark! Any disguise, I'll strip it away right now!)"
+    },
+    {
+      "trackNumber": 5,
+      "title": "ORB_IV_THE_QUEENS_GAZE",
+      "genres": [
+        "1980s Comedic Sci-Fi Anime Opening",
+        "1990s Magical Girl Synth-Pop",
+        "Upbeat Retro City Pop Funk"
+      ],
+      "tempo": "134 BPM, bouncy cheeky groove",
+      "vocals": "Cute sassy Japanese female vocalist, Playful teasing verses, Cheerful soaring chorus, Mischievous giggles, Female alveolar trill",
+      "mood": "Playful, Hilarious, Cheeky, Mischievous, Cute",
+      "production": "Bouncy 80s synth marimba, Playful toy keytar, Funky slap bass, Bright FM synth brass stabs, Gated-reverb drums",
+      "lyricsExcerpt": "見つめて！クイーンズ・ゲイズ！怒らせたら お餅にしちゃうよ！ (Look! The Queen's Gaze! Make me mad and I'll turn you into mochi!)"
+    },
+    {
+      "trackNumber": 6,
+      "title": "ORB_V_INVISIBLE_SPECTRUM",
+      "genres": [
+        "1980s Midnight City Pop Anime Rock",
+        "1990s Cyber-Noir Sci-Fi Anime Opening",
+        "Atmospheric Space Funk"
+      ],
+      "tempo": "130 BPM, sleek nocturnal adventure groove",
+      "vocals": "Smooth expressive Japanese female vocalist, Intimate mysterious verses, Soaring emotional chorus, Female alveolar trill",
+      "mood": "Dreamy, Adventurous, Mysterious, Nocturnal, Intimate",
+      "production": "Eerie sci-fi theremin highlights, Shimmering 80s DX7 electric piano, Deep funky slap bass, Midnight electric guitars, Rainy reverb",
+      "lyricsExcerpt": "響け！インビジブル・スペクトラム！見えない波長で 世界を隠せ！ (Resonate! Invisible Spectrum! Hide the world with invisible wavelengths!)"
+    },
+    {
+      "trackNumber": 7,
+      "title": "ORB_VI_AE_SYNTH",
+      "genres": [
+        "1990s Magical Girl Anime Opening",
+        "1980s City Pop Synth-Rock",
+        "Radiant Sci-Fi Anime Rock"
+      ],
+      "tempo": "134 BPM, soaring exhilarating groove",
+      "vocals": "Radiant energetic Japanese female vocalist, Bright expressive verses, Triumphant soprano chorus, Female alveolar trill",
+      "mood": "Exhilarating, Radiant, Magical, Heroic, Bright",
+      "production": "Soaring electric violin, Sparkling golden chimes, Sweeping retro synth strings, Funky slap bass, Bright FM synth brass",
+      "lyricsExcerpt": "翔けろ！金のエー・シンス！重力超えて どこへでも行くよ！ (Soar! Golden Æ-Synth! Transcending gravity, I'll go anywhere!)"
+    },
+    {
+      "trackNumber": 8,
+      "title": "ORB_VII_GLITCH_VOID",
+      "genres": [
+        "1980s City Pop Anime Rock",
+        "1990s Gothic Sci-Fi Anime Opening",
+        "Baroque Synth-Wave"
+      ],
+      "tempo": "140 BPM, urgent stormy groove",
+      "vocals": "Energetic Japanese female anime vocalist, Dramatic soaring chorus, Predatory playful delivery, Female alveolar trill",
+      "mood": "Chaotic, Dark, Dramatic, Urgent, Defiant",
+      "production": "Crisp baroque harpsichord highlights, Funky slap bass, Crunchy 90s electric guitars, Bright FM synth brass, Gated-reverb drums",
+      "lyricsExcerpt": "完璧な世界は 死んだファイル バグこそが生きる 証なのよ！ (A perfect world is a dead file; the glitch itself is proof of life!)"
+    },
+    {
+      "trackNumber": 9,
+      "title": "ORB_VIII_COSMOS_DUET",
+      "genres": [
+        "1990s Melodic Visual Kei Anime Rock",
+        "Baroque J-Rock Opening",
+        "Romantic Symphonic Synth-Rock"
+      ],
+      "tempo": "130 BPM, lush galloping romantic groove",
+      "vocals": "Theatrical male-and-female Japanese Visual Kei duet, Yearning melodic verses, Soaring harmonized chorus",
+      "mood": "Romantic, Bittersweet, Cosmic, Grand, Theatrical",
+      "production": "Crisp baroque harpsichord, Twin harmonized 90s electric guitars, Driving melodic bass, Sweeping retro synth strings, Sparkling bells",
+      "lyricsExcerpt": "舞い上がれ！無限のコスモス・オーブ！ガラスの宇宙が 今、花開く！ (Soar up! Infinite Cosmos Orb! The glass universe blooms right now!)"
+    },
+    {
+      "trackNumber": 10,
+      "title": "ORB_VIII_COSMOS_GLITTER_VERSION",
+      "genres": [
+        "1990s Melodic Visual Kei Anime Rock",
+        "Baroque J-Rock Opening",
+        "Romantic Symphonic Synth-Rock"
+      ],
+      "tempo": "142 BPM, fast galloping romantic groove",
+      "vocals": "Passionate expressive Japanese female anime vocalist, Soaring dramatic soprano chorus, Ethereal female alveolar trill",
+      "mood": "Romantic, Soaring, Yearning, Cosmic, Theatrical",
+      "production": "Rapid baroque harpsichord arpeggios, Twin melodic 90s electric guitars, Sweeping retro synth strings, Crisp 90s rock drums, Sparkling bells",
+      "lyricsExcerpt": "三つの月と 環が重なる夜 星々のゲートが 扉を開く！ (A night where three moons and the ring align, the Astral Gate opens its door!)"
+    },
+    {
+      "trackNumber": 11,
+      "title": "ORB_VIII_COSMOS_RAEY_VERSION",
+      "genres": [
+        "1990s Melodic Visual Kei Anime Rock",
+        "Baroque J-Rock Opening",
+        "Romantic Symphonic Synth-Rock"
+      ],
+      "tempo": "130 BPM, driving romantic Visual Kei groove",
+      "vocals": "Passionate Japanese male Visual Kei lead vocalist, Theatrical melodic delivery, Soaring emotional chorus",
+      "mood": "Romantic, Brooding, Cosmic, Yearning, Grand",
+      "production": "Crisp baroque harpsichord, Twin harmonized 90s electric guitars, Driving melodic bass, Sweeping retro synth strings, Sparkling bells",
+      "lyricsExcerpt": "引き合う引力 抗えないの 光を超えて 君のそばへ！ (Pulling gravity, I can't resist—crossing the light, to your side!)"
+    }
+  ],
+  "chronologyNotes": "Produced during a nocturnal November 2026 experiment testing whether classic 1980s/1990s Japanese Anime Openings and 90s Visual Kei could thrive on Suno v6. Each track maps one of the eight Chaos Orbs and its native Terraforming Altar on Planet Nocturne, culminating in a three-part Cosmos finale sparked by a happy vocal-swap glitch that produced our official Duet.",
+  "laexiconTags": [
+    "001",
+    "007",
+    "037",
+    "038",
+    "052",
+    "053"
+  ]
 }
 ]
